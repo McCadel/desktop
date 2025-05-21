@@ -1,6 +1,10 @@
 # McCadel Desktop
 Progetto gestione McCadel, catena di fast food in C# OOP.
 
+## Rules
+1. **Ogni modulo và imlementato in una class library**
+2. **Nei componenti grafici utilizzare (dove possibile) User Controls**
+
 ## TODOS
   - [ ] Diagramma delle classi
   - [ ] Scheda grafico di massima della GUI
