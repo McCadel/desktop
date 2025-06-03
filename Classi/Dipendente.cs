@@ -1,29 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Classi
-{
-    public class Dipendente
+﻿namespace Classi{
+    public class Dipendente(Ristorante ristorante, string nome, string cognome, double stipendio)
     {
-        private Ristorante ristorante;
-        private string nome;
-        private string cognome;
-        private double stipendio;
-
-        public Dipendente(Ristorante ristorante, string nome, string cognome, double stipendio)
-        {
-            this.ristorante = ristorante;
-            this.nome = nome;
-            this.cognome = cognome;
-            this.stipendio = stipendio;
-        }
-
-        public Ristorante Ristorante { get => ristorante; set => ristorante = value; }
-        public string Nome { get => nome; set => nome = value; }
-        public string Cognome { get => cognome; set => cognome = value; }
-        public double Stipendio { get => stipendio; set => stipendio = value; }
+        public Ristorante Ristorante { get; set; } = ristorante;
+        public string Nome { get; set; } = nome;
+        public string Cognome { get; set; } = cognome;
+        public double Stipendio { get; set; } = stipendio;
     }
 }

@@ -1,28 +1,120 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Classi
+﻿namespace Classi
 {
-    public class Magazzino
+    public class Magazzino(Ristorante ristorante)
     {
-        private Ristorante ristorante;
-        private List<Prodotto> prodotti;
+        public Ristorante Ristorante { get; set; } = ristorante;
+        public List<Prodotto> Prodotti { get; set; } = [];
 
-        public Magazzino(List<Prodotto> prodotti, Ristorante ristorante)
+        private List<Ingrediente> ingredienti = [];
+
+
+        public Magazzino(Ristorante ristorante, List<Prodotto> prodotti, List<Ingrediente> ingredienti) : this(ristorante)
         {
-            this.prodotti = prodotti;
-            this.ristorante = ristorante;
-        }
-        public Magazzino(Ristorante ristorante)
-        {
-            this.prodotti = [];
-            this.ristorante = ristorante;
+            Prodotti = prodotti;
+            this.ingredienti = ingredienti;
         }
 
-        public List<Prodotto> Prodotti { get => prodotti; set => prodotti = value; }
-        public Ristorante Ristorante { get => ristorante; set => ristorante = value; }
+        private static bool ControlloDisponibilità(Prodotto prodotto, List<Ingrediente>? necessari = null)
+        {
+            necessari ??= [];
+            foreach (Ingrediente ingrediente in prodotto.Ingredienti)
+            {
+                necessari.Add(ingrediente);
+                //Trova quanti ingredienti teorici ho già
+                int conta = necessari.Count(necessari => necessari.Nome == ingrediente.Nome);
+
+                if (ingrediente.Quantita < conta)
+                {
+                    //Se la quantità di ingredienti è minore a quella che ho, allora non ho disponibilità
+                    return false;
+                }
+            }
+            //Disponibilità approvata
+            return true;
+        }
+
+        private static bool ControlloDisponibilità(Menu menu, List<Ingrediente>? necessari = null)
+        {
+            necessari ??= [];
+            foreach (Prodotto prodotto in menu.Prodotti)
+            {
+                if (ControlloDisponibilità(prodotto, necessari) == false)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        /**
+         * Controlla la disponibilità di un prodotto.
+         * Se il prodotto o il menu non sono disponibili, ritorna false.
+         * Altrimenti ritorna true se è stato prenotato dal magazzino.
+         */
+        public bool OrdinaProdotto(Prodotto prodotto)
+        {
+            if (ControlloDisponibilità(prodotto))
+            {
+                //Rimuovo gli ingredienti dal magazzino
+                foreach (Ingrediente ingrediente in prodotto.Ingredienti)
+                {
+                    Ingrediente? ingredienteMagazzino = ingredienti.FirstOrDefault(i => i.Nome == ingrediente.Nome);
+                    if (ingredienteMagazzino != null)
+                    {
+                        ingredienteMagazzino.Quantita--;
+                    }
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        /**
+         * Controlla la disponibilità di un menu.
+         * Se il menu non è disponibile, ritorna false.
+         * Altrimenti ritorna true se è stato prenotato dal magazzino.
+         */
+        public bool OrdinaMenu(Menu menu)
+        {
+            if (ControlloDisponibilità(menu))
+            {
+                //Rimuovo gli ingredienti dal magazzino
+                foreach (Prodotto prodotto in menu.Prodotti)
+                {
+                    OrdinaProdotto(prodotto);
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void Rifornisci(Ingrediente ingrediente)
+        {
+            Ingrediente? ingredienteMagazzino = ingredienti.FirstOrDefault(i => i.Nome == ingrediente.Nome);
+            if (ingredienteMagazzino != null)
+            {
+                // Se l'ingrediente esiste già, aggiorno la quantità
+                ingredienteMagazzino.Quantita += ingrediente.Quantita;
+            }
+            else
+            {
+                // Altrimenti, aggiungo il nuovo ingrediente al magazzino
+                ingredienti.Add(ingrediente);
+            }
+        }
+
+        public void Rifornisci(List<Ingrediente> ingredienti)
+        {
+            foreach (Ingrediente ingrediente in ingredienti)
+            {
+                Rifornisci(ingrediente);
+            }
+        }
     }
 }

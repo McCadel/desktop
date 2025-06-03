@@ -1,31 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Classi
+﻿namespace Classi
 {
-    public class Prodotto
+    public class Prodotto(string nome, double prezzo, Magazzino magazzino, List<Menu> menu, List<Ingrediente> ingredienti)
     {
-        private string nome;
-        private double prezzo;
-        private Ordine ordine;
-        private Magazzino magazzino;
-        private List<Menu> menu;
-        private List<Ingrediente> ingredienti;
-        public Prodotto(string nome, double prezzo, Magazzino magazzino, List<Menu> menu, List<Ingrediente> ingredienti)
-        {
-            this.nome = nome;
-            this.prezzo = prezzo;
-            this.magazzino = magazzino;
-            this.menu = menu;
-            this.ingredienti = ingredienti;
-        }
-        public string Nome { get => nome; set => nome = value; }
-        public double Prezzo { get => prezzo; set => prezzo = value; }
-        public Magazzino Magazzino { get => magazzino; set => magazzino = value; }
-        public List<Menu> Menu { get => menu; set => menu = value; }
-        public List<Ingrediente> Ingredienti { get => ingredienti; set => ingredienti = value; }
+        public string Nome { get; set; } = nome;
+        public double Prezzo { get; set; } = prezzo;
+        public Magazzino Magazzino { get; set; } = magazzino;
+        public List<Menu> Menu { get; set; } = menu;
+        public List<Ingrediente> Ingredienti { get; set; } = ingredienti;
     }
 }
