@@ -1,33 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Classi
+﻿namespace Classi
 {
-    public class Cliente
+    public class Cliente(string nome, string cognome, Ristorante ristorante)
     {
-        private string nome;
-        private string cognome;
-        private Ordine ordine;
-        private Ristorante ristorante;
-
-        public Cliente(string nome, string cognome, Ristorante ristorante)
+        public string Nome { get; set; } = nome;
+        public string Cognome { get; set; } = cognome;
+        public Ordine? Ordine { get; set; }
+        public Ristorante Ristorante { get; set; } = ristorante;
+        public void Ordina(int ntavolo, List<Prodotto> prodotti)
         {
-            this.nome = nome;
-            this.cognome = cognome;
-            this.ristorante = ristorante;
-        }
-
-        public string Nome { get => nome; set => nome = value; }
-        public string Cognome { get => cognome; set => cognome = value; }
-        public Ordine Ordine { get => ordine; set => ordine = value; }
-        public Ristorante Ristorante { get => ristorante; set => ristorante = value; }
-
-        public void ordina(int ntavolo, List<Prodotto> prodotti)
-        {
-            ristorante.Ordini.Add(this.ordine = new Ordine(ntavolo, prodotti, this.ristorante, this));
+            ristorante.Ordini.Add(Ordine = new Ordine(ntavolo, prodotti, Ristorante, this));
         }
     }
 }

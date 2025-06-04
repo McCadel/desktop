@@ -1,30 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Classi
+﻿namespace Classi
 {
-    public class Ordine
+    public class Ordine(int numeroTavolo, List<Prodotto> prodotti, Ristorante ristorante, Cliente cliente)
     {
-        private int numeroTavolo;
-        private List<Prodotto> prodotti;
-        private Ristorante ristorante;
-        private Cliente cliente;
+        private List<Prodotto> prodotti = prodotti;
 
-        public Ordine(int numeroTavolo, List<Prodotto> prodotti, Ristorante ristorante, Cliente cliente)
-        {
-            this.numeroTavolo = numeroTavolo;
-            this.prodotti = prodotti;
-            this.ristorante = ristorante;
-            this.cliente = cliente;
-        }
-        public int NumeroTavolo { get => numeroTavolo; set => numeroTavolo = value; }
-        public Ristorante Ristorante { get => ristorante; set => ristorante = value; }
-        public Cliente Cliente { get => cliente; set => cliente = value; }
+        public int NumeroTavolo { get; set; } = numeroTavolo;
+        public Ristorante Ristorante { get; set; } = ristorante;
+        public Cliente Cliente { get; set; } = cliente;
 
-        public double calcolaPrezzo()
+        public double CalcolaPrezzo()
         {
             double prezzo = 0;
             foreach(Prodotto p in prodotti){
