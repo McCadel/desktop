@@ -1,6 +1,6 @@
 /*
-Classe generica che non va utilizzata direttamente nelle classi del McCadel 🙏
-*/
+ * Classe generica che non va utilizzata direttamente nelle classi del McCadel 🙏
+ */
 
 using System;
 using System.Collections.Generic;
@@ -107,72 +107,3 @@ namespace Classi.Services
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Cadel Evans dopato
