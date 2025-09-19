@@ -1,0 +1,42 @@
+[
+  {
+    "nome": "Marco",
+    "cognome": "Rossi",
+    "stipendio": 1800.0
+  },
+  {
+    "nome": "Giulia",
+    "cognome": "Verdi",
+    "stipendio": 2200.0
+  },
+  {
+    "nome": "Alessandro",
+    "cognome": "Bianchi",
+    "stipendio": 1900.0
+  },
+  {
+    "nome": "Francesca",
+    "cognome": "Neri",
+    "stipendio": 2100.0
+  },
+  {
+    "nome": "Luca",
+    "cognome": "Gialli",
+    "stipendio": 1750.0
+  },
+  {
+    "nome": "Sara",
+    "cognome": "Blu",
+    "stipendio": 2300.0
+  },
+  {
+    "nome": "Matteo",
+    "cognome": "Viola",
+    "stipendio": 1950.0
+  },
+  {
+    "nome": "Elena",
+    "cognome": "Rosa",
+    "stipendio": 2000.0
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "nome": "Giovanni",
+    "cognome": "Ferrari",
+    "ordine": null
+  },
+  {
+    "nome": "Maria",
+    "cognome": "Esposito",
+    "ordine": {
+      "numeroTavolo": 5,
+      "prodotti": [],
+      "nomeCliente": "Maria",
+      "cognomeCliente": "Esposito",
+      "prezzoTotale": 25.50
+    }
+  },
+  {
+    "nome": "Antonio",
+    "cognome": "Russo",
+    "ordine": null
+  },
+  {
+    "nome": "Anna",
+    "cognome": "Romano",
+    "ordine": {
+      "numeroTavolo": 12,
+      "prodotti": [],
+      "nomeCliente": "Anna",
+      "cognomeCliente": "Romano",
+      "prezzoTotale": 18.00
+    }
+  },
+  {
+    "nome": "Francesco",
+    "cognome": "Gallo",
+    "ordine": null
+  },
+  {
+    "nome": "Laura",
+    "cognome": "Conti",
+    "ordine": null
+  },
+  {
+    "nome": "Giuseppe",
+    "cognome": "Bruno",
+    "ordine": {
+      "numeroTavolo": 3,
+      "prodotti": [],
+      "nomeCliente": "Giuseppe",
+      "cognomeCliente": "Bruno",
+      "prezzoTotale": 32.75
+    }
+  },
+  {
+    "nome": "Chiara",
+    "cognome": "De Luca",
+    "ordine": null
+  },
+  {
+    "nome": "Roberto",
+    "cognome": "Mancini",
+    "ordine": null
+  },
+  {
+    "nome": "Silvia",
+    "cognome": "Greco",
+    "ordine": {
+      "numeroTavolo": 8,
+      "prodotti": [],
+      "nomeCliente": "Silvia",
+      "cognomeCliente": "Greco",
+      "prezzoTotale": 42.20
+    }
+  }
+]
