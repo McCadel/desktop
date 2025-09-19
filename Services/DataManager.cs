@@ -2,6 +2,17 @@
 Qui gestisco le gli attributi delle classi in modo specifico a differenza di JsonService,
 che invece è più generico e riutilizzabile.
 
+Dedicato a:
+
+_________             .___     .__    ___________                            
+\_   ___ \_____     __| _/____ |  |   \_   _____/__  _______    ____   ______
+/    \  \/\__  \   / __ |/ __ \|  |    |    __)_\  \/ /\__  \  /    \ /  ___/
+\     \____/ __ \_/ /_/ \  ___/|  |__  |        \\   /  / __ \|   |  \\___ \ 
+ \______  (____  /\____ |\___  >____/ /_______  / \_/  (____  /___|  /____  >
+        \/     \/      \/    \/               \/            \/     \/     \/ 
+
+             Il ciclista più dopato del mondo.
+
 COME UTILIZZARE:
 
     Ci sono 2 modi, si può creare un istanza diretta -> var dataManager = new DataManager(); e poi usare i metodi -> await dataManager.SalvaRistoranteCompletoAsync(nuovoRistorante);
