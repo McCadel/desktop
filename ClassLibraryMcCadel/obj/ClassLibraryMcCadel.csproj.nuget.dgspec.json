@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anton\\Desktop\\McCadel\\ClassLibraryMcCadel\\ClassLibraryMcCadel.csproj": {}
+    "C:\\Users\\anton\\Desktop\\desktop\\ClassLibraryMcCadel\\ClassLibraryMcCadel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anton\\Desktop\\McCadel\\ClassLibraryMcCadel\\ClassLibraryMcCadel.csproj": {
+    "C:\\Users\\anton\\Desktop\\desktop\\ClassLibraryMcCadel\\ClassLibraryMcCadel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anton\\Desktop\\McCadel\\ClassLibraryMcCadel\\ClassLibraryMcCadel.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Desktop\\desktop\\ClassLibraryMcCadel\\ClassLibraryMcCadel.csproj",
         "projectName": "ClassLibraryMcCadel",
-        "projectPath": "C:\\Users\\anton\\Desktop\\McCadel\\ClassLibraryMcCadel\\ClassLibraryMcCadel.csproj",
+        "projectPath": "C:\\Users\\anton\\Desktop\\desktop\\ClassLibraryMcCadel\\ClassLibraryMcCadel.csproj",
         "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anton\\Desktop\\McCadel\\ClassLibraryMcCadel\\obj\\",
+        "outputPath": "C:\\Users\\anton\\Desktop\\desktop\\ClassLibraryMcCadel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

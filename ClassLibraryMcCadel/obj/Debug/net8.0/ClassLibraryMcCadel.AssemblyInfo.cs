@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClassLibraryMcCadel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+617a2b44ab4c38e0726b7a23946b2e853ea3fca8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClassLibraryMcCadel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClassLibraryMcCadel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
