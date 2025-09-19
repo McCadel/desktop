@@ -1,0 +1,174 @@
+C:\Users\anton\Desktop\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.exe
+C:\Users\anton\Desktop\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.deps.json
+C:\Users\anton\Desktop\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.runtimeconfig.json
+C:\Users\anton\Desktop\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.pdb
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormMcCadel.resources
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Properties.Resources.resources
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.GenerateResource.cache
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfo.cs
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\refint\McCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.pdb
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.genruntimeconfig.cache
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\ref\McCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Formhall.resources
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlMenu.resources
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlSezioni.resources
+C:\Users\anton\Desktop\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.pdb
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.AssemblyReference.cache
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.Up2Date
+C:\Users\sfrattar\Downloads\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.exe
+C:\Users\sfrattar\Downloads\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.deps.json
+C:\Users\sfrattar\Downloads\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.runtimeconfig.json
+C:\Users\sfrattar\Downloads\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.dll
+C:\Users\sfrattar\Downloads\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.pdb
+C:\Users\sfrattar\Downloads\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.dll
+C:\Users\sfrattar\Downloads\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.pdb
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.AssemblyReference.cache
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Formhall.resources
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormMcCadel.resources
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Properties.Resources.resources
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlMenu.resources
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlSezioni.resources
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.GenerateResource.cache
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfoInputs.cache
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfo.cs
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.CoreCompileInputs.cache
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.Up2Date
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.dll
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\refint\McCadel.dll
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.pdb
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.genruntimeconfig.cache
+C:\Users\sfrattar\Downloads\McCadel\McCadel\obj\Debug\net8.0-windows\ref\McCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.exe
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.deps.json
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.runtimeconfig.json
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.pdb
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.pdb
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.AssemblyReference.cache
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Formhall.resources
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormMcCadel.resources
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Properties.Resources.resources
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlMenu.resources
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlSezioni.resources
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.GenerateResource.cache
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfo.cs
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.Up2Date
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\refint\McCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.pdb
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.genruntimeconfig.cache
+C:\Users\anton\Desktop\McCadel\McCadel\McCadel\obj\Debug\net8.0-windows\ref\McCadel.dll
+D:\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.exe
+D:\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.deps.json
+D:\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.runtimeconfig.json
+D:\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.dll
+D:\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.pdb
+D:\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.dll
+D:\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.pdb
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.AssemblyReference.cache
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Formhall.resources
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormMcCadel.resources
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Properties.Resources.resources
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlMenu.resources
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlSezioni.resources
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.GenerateResource.cache
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.GeneratedMSBuildEditorConfig.editorconfig
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfoInputs.cache
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfo.cs
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.CoreCompileInputs.cache
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.Up2Date
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.dll
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\refint\McCadel.dll
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.pdb
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.genruntimeconfig.cache
+D:\McCadel\McCadel\obj\Debug\net8.0-windows\ref\McCadel.dll
+F:\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.exe
+F:\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.deps.json
+F:\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.runtimeconfig.json
+F:\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.dll
+F:\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.pdb
+F:\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.dll
+F:\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.pdb
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.AssemblyReference.cache
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Formhall.resources
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormMcCadel.resources
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Properties.Resources.resources
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlMenu.resources
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlSezioni.resources
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.GenerateResource.cache
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.GeneratedMSBuildEditorConfig.editorconfig
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfoInputs.cache
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfo.cs
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.CoreCompileInputs.cache
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.Up2Date
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.dll
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\refint\McCadel.dll
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.pdb
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.genruntimeconfig.cache
+F:\McCadel\McCadel\obj\Debug\net8.0-windows\ref\McCadel.dll
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.exe
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.deps.json
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.runtimeconfig.json
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.dll
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.pdb
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.dll
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.pdb
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.AssemblyReference.cache
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Formhall.resources
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormMcCadel.resources
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Properties.Resources.resources
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlMenu.resources
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlSezioni.resources
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.GenerateResource.cache
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfoInputs.cache
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfo.cs
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.Up2Date
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.dll
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\refint\McCadel.dll
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.pdb
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.genruntimeconfig.cache
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\ref\McCadel.dll
+C:\Users\Leonardo\Desktop\Scuola\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormCarrello.resources
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.exe
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.deps.json
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.runtimeconfig.json
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.dll
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\bin\Debug\net8.0-windows\McCadel.pdb
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.dll
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\bin\Debug\net8.0-windows\ClassLibraryMcCadel.pdb
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.AssemblyReference.cache
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormCarrello.resources
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Formhall.resources
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormMcCadel.resources
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.Properties.Resources.resources
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlMenu.resources
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.UserControlSezioni.resources
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.GenerateResource.cache
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfoInputs.cache
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.AssemblyInfo.cs
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.CoreCompileInputs.cache
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.csproj.Up2Date
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.dll
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\refint\McCadel.dll
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.pdb
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.genruntimeconfig.cache
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\McCadel\obj\Debug\net8.0-windows\ref\McCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormCarrello.resources
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormPagamento.resources
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormRistorante.resources
+C:\Users\anton\Desktop\McCadel\McCadel\obj\Debug\net8.0-windows\McCadel.FormClienti.resources

@@ -1,0 +1,1936 @@
+{
+  "$id": "1",
+  "$values": [
+    {
+      "$id": "2",
+      "Nome": "Panini",
+      "Prodotti": {
+        "$id": "3",
+        "$values": [
+          {
+            "$id": "4",
+            "Nome": "Smash",
+            "Prezzo": 4.5,
+            "Ingredienti": {
+              "$id": "5",
+              "$values": [
+                {
+                  "$id": "6",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "4"
+                  }
+                },
+                {
+                  "$id": "7",
+                  "Nome": "Carne di manzo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "4"
+                  }
+                },
+                {
+                  "$id": "8",
+                  "Nome": "Cheddar",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "4"
+                  }
+                },
+                {
+                  "$id": "9",
+                  "Nome": "Salsa Burger",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "4"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "L\u0027intramontabile cheeseburger, semplice e diretto. La carne \u0022schiacciata\u0022 sulla piastra crea una crosticina saporita che si sposa perfettamente con il formaggio fuso"
+          },
+          {
+            "$id": "10",
+            "Nome": "Chicken Deluxe",
+            "Prezzo": 6,
+            "Ingredienti": {
+              "$id": "11",
+              "$values": [
+                {
+                  "$id": "12",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "10"
+                  }
+                },
+                {
+                  "$id": "13",
+                  "Nome": "Petto di pollo fritto",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "10"
+                  }
+                },
+                {
+                  "$id": "14",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "10"
+                  }
+                },
+                {
+                  "$id": "15",
+                  "Nome": "Pomodoro",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "10"
+                  }
+                },
+                {
+                  "$id": "16",
+                  "Nome": "Maionese",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "10"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Petto di pollo croccante, lattuga fresca, pomodoro e maionese delicata."
+          },
+          {
+            "$id": "17",
+            "Nome": "Bacon King",
+            "Prezzo": 5.5,
+            "Ingredienti": {
+              "$id": "18",
+              "$values": [
+                {
+                  "$id": "19",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "17"
+                  }
+                },
+                {
+                  "$id": "20",
+                  "Nome": "Carne di manzo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "17"
+                  }
+                },
+                {
+                  "$id": "21",
+                  "Nome": "Cheddar",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "17"
+                  }
+                },
+                {
+                  "$id": "22",
+                  "Nome": "Bacon croccante",
+                  "Quantita": 2,
+                  "Prodotto": {
+                    "$ref": "17"
+                  }
+                },
+                {
+                  "$id": "23",
+                  "Nome": "Salsa Burger",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "17"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Il nostro Smash burger con l\u0027aggiunta di bacon croccante affumicato. Un classico intramontabile."
+          },
+          {
+            "$id": "24",
+            "Nome": "Veggie Dream",
+            "Prezzo": 6.5,
+            "Ingredienti": {
+              "$id": "25",
+              "$values": [
+                {
+                  "$id": "26",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "24"
+                  }
+                },
+                {
+                  "$id": "27",
+                  "Nome": "Burger vegetale",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "24"
+                  }
+                },
+                {
+                  "$id": "28",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "24"
+                  }
+                },
+                {
+                  "$id": "29",
+                  "Nome": "Pomodoro",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "24"
+                  }
+                },
+                {
+                  "$id": "30",
+                  "Nome": "Salsa Yogurt",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "24"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Delizioso burger vegetale a base di ceci e verdure, con lattuga, pomodoro e salsa yogurt."
+          },
+          {
+            "$id": "31",
+            "Nome": "Firecracker Chicken",
+            "Prezzo": 6.5,
+            "Ingredienti": {
+              "$id": "32",
+              "$values": [
+                {
+                  "$id": "33",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "31"
+                  }
+                },
+                {
+                  "$id": "34",
+                  "Nome": "Petto di pollo fritto piccante",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "31"
+                  }
+                },
+                {
+                  "$id": "35",
+                  "Nome": "Coleslaw",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "31"
+                  }
+                },
+                {
+                  "$id": "36",
+                  "Nome": "Salsa piccante",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "31"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Petto di pollo fritto piccante, insalata coleslaw e una salsa al peperoncino che infiamma."
+          },
+          {
+            "$id": "37",
+            "Nome": "Smoky BBQ Pork",
+            "Prezzo": 7,
+            "Ingredienti": {
+              "$id": "38",
+              "$values": [
+                {
+                  "$id": "39",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "37"
+                  }
+                },
+                {
+                  "$id": "40",
+                  "Nome": "Maiale sfilacciato (Pulled Pork)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "37"
+                  }
+                },
+                {
+                  "$id": "41",
+                  "Nome": "Salsa BBQ",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "37"
+                  }
+                },
+                {
+                  "$id": "42",
+                  "Nome": "Cipolla fritta croccante",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "37"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Spalla di maiale sfilacciata cotta lentamente, affogata in salsa BBQ e servita con cipolla fritta."
+          },
+          {
+            "$id": "43",
+            "Nome": "Double Trouble",
+            "Prezzo": 7.5,
+            "Ingredienti": {
+              "$id": "44",
+              "$values": [
+                {
+                  "$id": "45",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "43"
+                  }
+                },
+                {
+                  "$id": "46",
+                  "Nome": "Carne di manzo",
+                  "Quantita": 2,
+                  "Prodotto": {
+                    "$ref": "43"
+                  }
+                },
+                {
+                  "$id": "47",
+                  "Nome": "Cheddar",
+                  "Quantita": 2,
+                  "Prodotto": {
+                    "$ref": "43"
+                  }
+                },
+                {
+                  "$id": "48",
+                  "Nome": "Ketchup",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "43"
+                  }
+                },
+                {
+                  "$id": "49",
+                  "Nome": "Senape",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "43"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Doppia carne, doppio cheddar. Per chi non si accontenta. Semplice ma d\u0027impatto."
+          },
+          {
+            "$id": "50",
+            "Nome": "Ocean Catch",
+            "Prezzo": 6,
+            "Ingredienti": {
+              "$id": "51",
+              "$values": [
+                {
+                  "$id": "52",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "50"
+                  }
+                },
+                {
+                  "$id": "53",
+                  "Nome": "Filetto di merluzzo fritto",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "50"
+                  }
+                },
+                {
+                  "$id": "54",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "50"
+                  }
+                },
+                {
+                  "$id": "55",
+                  "Nome": "Salsa Tartara",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "50"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Filetto di merluzzo impanato e fritto, con lattuga fresca e salsa tartara fatta in casa."
+          },
+          {
+            "$id": "56",
+            "Nome": "Alpine Melt",
+            "Prezzo": 7,
+            "Ingredienti": {
+              "$id": "57",
+              "$values": [
+                {
+                  "$id": "58",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "56"
+                  }
+                },
+                {
+                  "$id": "59",
+                  "Nome": "Carne di manzo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "56"
+                  }
+                },
+                {
+                  "$id": "60",
+                  "Nome": "Formaggio Svizzero (Emmental)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "56"
+                  }
+                },
+                {
+                  "$id": "61",
+                  "Nome": "Funghi saltati",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "56"
+                  }
+                },
+                {
+                  "$id": "62",
+                  "Nome": "Maionese al tartufo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "56"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Burger di manzo con funghi champignon saltati, formaggio svizzero fuso e maionese al tartufo."
+          },
+          {
+            "$id": "63",
+            "Nome": "Caprese Bliss",
+            "Prezzo": 7.5,
+            "Ingredienti": {
+              "$id": "64",
+              "$values": [
+                {
+                  "$id": "65",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "63"
+                  }
+                },
+                {
+                  "$id": "66",
+                  "Nome": "Carne di manzo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "63"
+                  }
+                },
+                {
+                  "$id": "67",
+                  "Nome": "Mozzarella di Bufala",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "63"
+                  }
+                },
+                {
+                  "$id": "68",
+                  "Nome": "Pomodoro a fette",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "63"
+                  }
+                },
+                {
+                  "$id": "69",
+                  "Nome": "Foglie di Basilico",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "63"
+                  }
+                },
+                {
+                  "$id": "70",
+                  "Nome": "Pesto",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "63"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Un tocco italiano: burger di manzo, mozzarella di bufala, pomodoro fresco, basilico e pesto."
+          },
+          {
+            "$id": "71",
+            "Nome": "El Diablo",
+            "Prezzo": 6.5,
+            "Ingredienti": {
+              "$id": "72",
+              "$values": [
+                {
+                  "$id": "73",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "71"
+                  }
+                },
+                {
+                  "$id": "74",
+                  "Nome": "Carne di manzo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "71"
+                  }
+                },
+                {
+                  "$id": "75",
+                  "Nome": "Formaggio Pepper Jack",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "71"
+                  }
+                },
+                {
+                  "$id": "76",
+                  "Nome": "Jalape\u00F1os a fette",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "71"
+                  }
+                },
+                {
+                  "$id": "77",
+                  "Nome": "Cipolla rossa",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "71"
+                  }
+                },
+                {
+                  "$id": "78",
+                  "Nome": "Salsa Chipotle",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "71"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Per gli amanti del piccante: manzo, formaggio pepper jack, jalape\u00F1os, cipolla rossa e salsa chipotle."
+          },
+          {
+            "$id": "79",
+            "Nome": "Chicken Club",
+            "Prezzo": 6.5,
+            "Ingredienti": {
+              "$id": "80",
+              "$values": [
+                {
+                  "$id": "81",
+                  "Nome": "Pane per hamburger (bun)",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "79"
+                  }
+                },
+                {
+                  "$id": "82",
+                  "Nome": "Petto di pollo grigliato",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "79"
+                  }
+                },
+                {
+                  "$id": "83",
+                  "Nome": "Bacon croccante",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "79"
+                  }
+                },
+                {
+                  "$id": "84",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "79"
+                  }
+                },
+                {
+                  "$id": "85",
+                  "Nome": "Pomodoro",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "79"
+                  }
+                },
+                {
+                  "$id": "86",
+                  "Nome": "Maionese",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "79"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Petto di pollo grigliato (non fritto!), bacon croccante, lattuga, pomodoro e maionese."
+          }
+        ]
+      }
+    },
+    {
+      "$id": "87",
+      "Nome": "Bevande",
+      "Prodotti": {
+        "$id": "88",
+        "$values": [
+          {
+            "$id": "89",
+            "Nome": "Acqua Naturale",
+            "Prezzo": 1.5,
+            "Ingredienti": {
+              "$id": "90",
+              "$values": [
+                {
+                  "$id": "91",
+                  "Nome": "Acqua",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "89"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Bottiglia da 500ml"
+          },
+          {
+            "$id": "92",
+            "Nome": "Acqua Frizzante",
+            "Prezzo": 1.5,
+            "Ingredienti": {
+              "$id": "93",
+              "$values": [
+                {
+                  "$id": "94",
+                  "Nome": "Acqua",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "92"
+                  }
+                },
+                {
+                  "$id": "95",
+                  "Nome": "Anidride carbonica",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "92"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Bottiglia da 500ml"
+          },
+          {
+            "$id": "96",
+            "Nome": "Coca Cola",
+            "Prezzo": 2.5,
+            "Ingredienti": {
+              "$id": "97",
+              "$values": [
+                {
+                  "$id": "98",
+                  "Nome": "Coca Cola",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "96"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Lattina da 33cl"
+          },
+          {
+            "$id": "99",
+            "Nome": "Aranciata",
+            "Prezzo": 2.5,
+            "Ingredienti": {
+              "$id": "100",
+              "$values": [
+                {
+                  "$id": "101",
+                  "Nome": "Aranciata",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "99"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Lattina da 33cl"
+          },
+          {
+            "$id": "102",
+            "Nome": "Sprite",
+            "Prezzo": 2.5,
+            "Ingredienti": {
+              "$id": "103",
+              "$values": [
+                {
+                  "$id": "104",
+                  "Nome": "Sprite",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "102"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Lattina da 33cl"
+          },
+          {
+            "$id": "105",
+            "Nome": "T\u00E8 alla Pesca",
+            "Prezzo": 2.8,
+            "Ingredienti": {
+              "$id": "106",
+              "$values": [
+                {
+                  "$id": "107",
+                  "Nome": "T\u00E8 alla pesca",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "105"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Lattina da 33cl"
+          },
+          {
+            "$id": "108",
+            "Nome": "T\u00E8 al Limone",
+            "Prezzo": 2.8,
+            "Ingredienti": {
+              "$id": "109",
+              "$values": [
+                {
+                  "$id": "110",
+                  "Nome": "T\u00E8 al Limone",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "108"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Lattina da 33cl"
+          },
+          {
+            "$id": "111",
+            "Nome": "Succo",
+            "Prezzo": 3,
+            "Ingredienti": {
+              "$id": "112",
+              "$values": [
+                {
+                  "$id": "113",
+                  "Nome": "Succo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "111"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Bottiglia 200ml"
+          },
+          {
+            "$id": "114",
+            "Nome": "Birra Moretti",
+            "Prezzo": 4,
+            "Ingredienti": {
+              "$id": "115",
+              "$values": [
+                {
+                  "$id": "116",
+                  "Nome": "Birra Moretti",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "114"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Bottiglia 33cl"
+          },
+          {
+            "$id": "117",
+            "Nome": "Calice di Vino Rosso",
+            "Prezzo": 5,
+            "Ingredienti": {
+              "$id": "118",
+              "$values": [
+                {
+                  "$id": "119",
+                  "Nome": "Calice di Vino Rosso",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "117"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Servito al calice"
+          },
+          {
+            "$id": "120",
+            "Nome": "Caff\u00E8 Espresso",
+            "Prezzo": 1.2,
+            "Ingredienti": {
+              "$id": "121",
+              "$values": [
+                {
+                  "$id": "122",
+                  "Nome": "Caff\u00E8 Espresso",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "120"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Tazzina"
+          },
+          {
+            "$id": "123",
+            "Nome": "Cappuccino",
+            "Prezzo": 1.8,
+            "Ingredienti": {
+              "$id": "124",
+              "$values": [
+                {
+                  "$id": "125",
+                  "Nome": "Cappuccino",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "123"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Tazza grande"
+          }
+        ]
+      }
+    },
+    {
+      "$id": "126",
+      "Nome": "Pollo e Fritti",
+      "Prodotti": {
+        "$id": "127",
+        "$values": [
+          {
+            "$id": "128",
+            "Nome": "Patatine Fritte (S)",
+            "Prezzo": 1.8,
+            "Ingredienti": {
+              "$id": "129",
+              "$values": [
+                {
+                  "$id": "130",
+                  "Nome": "Patatine Fritte",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "128"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Porzione piccola"
+          },
+          {
+            "$id": "131",
+            "Nome": "Patatine Fritte (M)",
+            "Prezzo": 2.5,
+            "Ingredienti": {
+              "$id": "132",
+              "$values": [
+                {
+                  "$id": "133",
+                  "Nome": "Patatine Fritte",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "131"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Porzione media"
+          },
+          {
+            "$id": "134",
+            "Nome": "Patatine Fritte (L)",
+            "Prezzo": 3.5,
+            "Ingredienti": {
+              "$id": "135",
+              "$values": [
+                {
+                  "$id": "136",
+                  "Nome": "Patatine Fritte",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "134"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Porzione grande"
+          },
+          {
+            "$id": "137",
+            "Nome": "Nuggets",
+            "Prezzo": 4.5,
+            "Ingredienti": {
+              "$id": "138",
+              "$values": [
+                {
+                  "$id": "139",
+                  "Nome": "Nuggets",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "137"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "6 pezzi con salsa a scelta"
+          },
+          {
+            "$id": "140",
+            "Nome": "Nuggets",
+            "Prezzo": 6,
+            "Ingredienti": {
+              "$id": "141",
+              "$values": [
+                {
+                  "$id": "142",
+                  "Nome": "Nuggets",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "140"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "9 pezzi con 2 salse a scelta"
+          },
+          {
+            "$id": "143",
+            "Nome": "Nuggets",
+            "Prezzo": 10.5,
+            "Ingredienti": {
+              "$id": "144",
+              "$values": [
+                {
+                  "$id": "145",
+                  "Nome": "Nuggets",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "143"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Box da 20 pezzi per condividere"
+          },
+          {
+            "$id": "146",
+            "Nome": "Ricche",
+            "Prezzo": 4.8,
+            "Ingredienti": {
+              "$id": "147",
+              "$values": [
+                {
+                  "$id": "148",
+                  "Nome": "Patatine Fritte",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "146"
+                  }
+                },
+                {
+                  "$id": "149",
+                  "Nome": "Cheddar",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "146"
+                  }
+                },
+                {
+                  "$id": "150",
+                  "Nome": "Bacon croccante",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "146"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Porzione grande con cheddar fuso e bacon croccante"
+          },
+          {
+            "$id": "151",
+            "Nome": "Alette piccanti",
+            "Prezzo": 5.5,
+            "Ingredienti": {
+              "$id": "152",
+              "$values": [
+                {
+                  "$id": "153",
+                  "Nome": "Alette di pollo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "151"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "5 ali di pollo speziate"
+          },
+          {
+            "$id": "154",
+            "Nome": "Tenders",
+            "Prezzo": 5,
+            "Ingredienti": {
+              "$id": "155",
+              "$values": [
+                {
+                  "$id": "156",
+                  "Nome": "Petto di pollo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "154"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "4 strisce di petto di pollo fritto"
+          },
+          {
+            "$id": "157",
+            "Nome": "Mozzarelline Fritte",
+            "Prezzo": 4.2,
+            "Ingredienti": {
+              "$id": "158",
+              "$values": [
+                {
+                  "$id": "159",
+                  "Nome": "Mozzarella",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "157"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "6 stick di mozzarella impanati"
+          },
+          {
+            "$id": "160",
+            "Nome": "Crocchette",
+            "Prezzo": 3,
+            "Ingredienti": {
+              "$id": "161",
+              "$values": [
+                {
+                  "$id": "162",
+                  "Nome": "Crocchette di patate",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "160"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "5 pezzi"
+          },
+          {
+            "$id": "163",
+            "Nome": "Jalape\u00F1os",
+            "Prezzo": 4.8,
+            "Ingredienti": {
+              "$id": "164",
+              "$values": [
+                {
+                  "$id": "165",
+                  "Nome": "Jalape\u00F1os",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "163"
+                  }
+                },
+                {
+                  "$id": "166",
+                  "Nome": "Cheddar",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "163"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "5 peperoncini ripieni di formaggio e fritti"
+          },
+          {
+            "$id": "167",
+            "Nome": "Mix",
+            "Prezzo": 8.5,
+            "Ingredienti": {
+              "$id": "168",
+              "$values": [
+                {
+                  "$id": "169",
+                  "Nome": "Nuggets",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "167"
+                  }
+                },
+                {
+                  "$id": "170",
+                  "Nome": "Anelli di Cipolla",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "167"
+                  }
+                },
+                {
+                  "$id": "171",
+                  "Nome": "Mozzarella",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "167"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Nuggets, Anelli di Cipolla e Mozzarelline"
+          }
+        ]
+      }
+    },
+    {
+      "$id": "172",
+      "Nome": "Insalate",
+      "Prodotti": {
+        "$id": "173",
+        "$values": [
+          {
+            "$id": "174",
+            "Nome": "Caesar Salad",
+            "Prezzo": 8,
+            "Ingredienti": {
+              "$id": "175",
+              "$values": [
+                {
+                  "$id": "176",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "174"
+                  }
+                },
+                {
+                  "$id": "177",
+                  "Nome": "Petto di pollo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "174"
+                  }
+                },
+                {
+                  "$id": "178",
+                  "Nome": "Crostini",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "174"
+                  }
+                },
+                {
+                  "$id": "179",
+                  "Nome": "Salsa Caesar",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "174"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Lattuga romana, pollo grigliato, crostini, salsa Caesar"
+          },
+          {
+            "$id": "180",
+            "Nome": "Insalata Mista",
+            "Prezzo": 6.5,
+            "Ingredienti": {
+              "$id": "181",
+              "$values": [
+                {
+                  "$id": "182",
+                  "Nome": "Iceberg",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "180"
+                  }
+                },
+                {
+                  "$id": "183",
+                  "Nome": "Insalata mista",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "180"
+                  }
+                },
+                {
+                  "$id": "184",
+                  "Nome": "Pomodoro",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "180"
+                  }
+                },
+                {
+                  "$id": "185",
+                  "Nome": "Mais",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "180"
+                  }
+                },
+                {
+                  "$id": "186",
+                  "Nome": "Carote",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "180"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Insalata verde, pomodorini, mais, carote"
+          },
+          {
+            "$id": "187",
+            "Nome": "Pollo Croccante",
+            "Prezzo": 8.5,
+            "Ingredienti": {
+              "$id": "188",
+              "$values": [
+                {
+                  "$id": "189",
+                  "Nome": "Petto di pollo",
+                  "Quantita": 2,
+                  "Prodotto": {
+                    "$ref": "187"
+                  }
+                },
+                {
+                  "$id": "190",
+                  "Nome": "Mais",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "187"
+                  }
+                },
+                {
+                  "$id": "191",
+                  "Nome": "Salsa yogurt",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "187"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Pezzetti di pollo fritto, mais, salsa yogurt"
+          },
+          {
+            "$id": "192",
+            "Nome": "Insalata Greca",
+            "Prezzo": 7.8,
+            "Ingredienti": {
+              "$id": "193",
+              "$values": [
+                {
+                  "$id": "194",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "192"
+                  }
+                },
+                {
+                  "$id": "195",
+                  "Nome": "Feta",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "192"
+                  }
+                },
+                {
+                  "$id": "196",
+                  "Nome": "Olive",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "192"
+                  }
+                },
+                {
+                  "$id": "197",
+                  "Nome": "Cetrioli",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "192"
+                  }
+                },
+                {
+                  "$id": "198",
+                  "Nome": "Cipolla",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "192"
+                  }
+                },
+                {
+                  "$id": "199",
+                  "Nome": "Origano",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "192"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Feta, olive taggiasche, cetrioli, cipolla rossa, origano"
+          },
+          {
+            "$id": "200",
+            "Nome": "Tonno",
+            "Prezzo": 7.5,
+            "Ingredienti": {
+              "$id": "201",
+              "$values": [
+                {
+                  "$id": "202",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "200"
+                  }
+                },
+                {
+                  "$id": "203",
+                  "Nome": "Tonno",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "200"
+                  }
+                },
+                {
+                  "$id": "204",
+                  "Nome": "Uova",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "200"
+                  }
+                },
+                {
+                  "$id": "205",
+                  "Nome": "Pomodoro",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "200"
+                  }
+                },
+                {
+                  "$id": "206",
+                  "Nome": "Cipolla",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "200"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Tonno all\u0027olio d\u0027oliva, uova sode, pomodorini, cipolla"
+          },
+          {
+            "$id": "207",
+            "Nome": "Insalata \u0027Chef\u0027",
+            "Prezzo": 8,
+            "Ingredienti": {
+              "$id": "208",
+              "$values": [
+                {
+                  "$id": "209",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "207"
+                  }
+                },
+                {
+                  "$id": "210",
+                  "Nome": "Prosciutto cotto",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "207"
+                  }
+                },
+                {
+                  "$id": "211",
+                  "Nome": "Parmigiano",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "207"
+                  }
+                },
+                {
+                  "$id": "212",
+                  "Nome": "Uova",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "207"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Prosciutto cotto a cubetti, formaggio, uovo sodo"
+          },
+          {
+            "$id": "213",
+            "Nome": "Insalata \u0027Taco\u0027",
+            "Prezzo": 9,
+            "Ingredienti": {
+              "$id": "214",
+              "$values": [
+                {
+                  "$id": "215",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "213"
+                  }
+                },
+                {
+                  "$id": "216",
+                  "Nome": "Petto di pollo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "213"
+                  }
+                },
+                {
+                  "$id": "217",
+                  "Nome": "Fagioli",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "213"
+                  }
+                },
+                {
+                  "$id": "218",
+                  "Nome": "Mais",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "213"
+                  }
+                },
+                {
+                  "$id": "219",
+                  "Nome": "Nachos",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "213"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Pollo speziato, fagioli neri, mais, nachos sbriciolati"
+          },
+          {
+            "$id": "220",
+            "Nome": "Gamberetti",
+            "Prezzo": 9.5,
+            "Ingredienti": {
+              "$id": "221",
+              "$values": [
+                {
+                  "$id": "222",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "220"
+                  }
+                },
+                {
+                  "$id": "223",
+                  "Nome": "Gamberetti",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "220"
+                  }
+                },
+                {
+                  "$id": "224",
+                  "Nome": "Avocado",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "220"
+                  }
+                },
+                {
+                  "$id": "225",
+                  "Nome": "Salsa rosa",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "220"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Gamberetti, avocado, lattuga, salsa rosa"
+          },
+          {
+            "$id": "226",
+            "Nome": "Caprese",
+            "Prezzo": 7,
+            "Ingredienti": {
+              "$id": "227",
+              "$values": [
+                {
+                  "$id": "228",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "226"
+                  }
+                },
+                {
+                  "$id": "229",
+                  "Nome": "Mozzarella",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "226"
+                  }
+                },
+                {
+                  "$id": "230",
+                  "Nome": "Pomodoro",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "226"
+                  }
+                },
+                {
+                  "$id": "231",
+                  "Nome": "Basilico",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "226"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Bocconcini di mozzarella, pomodorini, basilico"
+          },
+          {
+            "$id": "232",
+            "Nome": "Vegana",
+            "Prezzo": 8.5,
+            "Ingredienti": {
+              "$id": "233",
+              "$values": [
+                {
+                  "$id": "234",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "232"
+                  }
+                },
+                {
+                  "$id": "235",
+                  "Nome": "Quinoa",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "232"
+                  }
+                },
+                {
+                  "$id": "236",
+                  "Nome": "Ceci",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "232"
+                  }
+                },
+                {
+                  "$id": "237",
+                  "Nome": "Avocado",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "232"
+                  }
+                },
+                {
+                  "$id": "238",
+                  "Nome": "Verdure",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "232"
+                  }
+                },
+                {
+                  "$id": "239",
+                  "Nome": "Semi",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "232"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Quinoa, ceci, avocado, verdure di stagione, semi misti"
+          },
+          {
+            "$id": "240",
+            "Nome": "Side Salad",
+            "Prezzo": 3,
+            "Ingredienti": {
+              "$id": "241",
+              "$values": [
+                {
+                  "$id": "242",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "240"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Insalata verde piccola"
+          },
+          {
+            "$id": "243",
+            "Nome": "Nizzarda",
+            "Prezzo": 8.8,
+            "Ingredienti": {
+              "$id": "244",
+              "$values": [
+                {
+                  "$id": "245",
+                  "Nome": "Lattuga",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "243"
+                  }
+                },
+                {
+                  "$id": "246",
+                  "Nome": "Tonno",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "243"
+                  }
+                },
+                {
+                  "$id": "247",
+                  "Nome": "Uova",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "243"
+                  }
+                },
+                {
+                  "$id": "248",
+                  "Nome": "Fagioli",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "243"
+                  }
+                },
+                {
+                  "$id": "249",
+                  "Nome": "Olive",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "243"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Tonno, acciughe, uova sode, fagiolini, olive"
+          }
+        ]
+      }
+    },
+    {
+      "$id": "250",
+      "Nome": "Dessert e Gelati",
+      "Prodotti": {
+        "$id": "251",
+        "$values": [
+          {
+            "$id": "252",
+            "Nome": "Sundae",
+            "Prezzo": 2.8,
+            "Ingredienti": {
+              "$id": "253",
+              "$values": [
+                {
+                  "$id": "254",
+                  "Nome": "Gelato",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "252"
+                  }
+                },
+                {
+                  "$id": "255",
+                  "Nome": "Topping",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "252"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Gelato alla vaniglia con topping cioccolato o fragola"
+          },
+          {
+            "$id": "256",
+            "Nome": "Muffin",
+            "Prezzo": 2,
+            "Ingredienti": {
+              "$id": "257",
+              "$values": [
+                {
+                  "$id": "258",
+                  "Nome": "Muffin",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "256"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Doppio cioccolato"
+          },
+          {
+            "$id": "259",
+            "Nome": "Cono Gelato",
+            "Prezzo": 1.5,
+            "Ingredienti": {
+              "$id": "260",
+              "$values": [
+                {
+                  "$id": "261",
+                  "Nome": "Gelato",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "259"
+                  }
+                },
+                {
+                  "$id": "262",
+                  "Nome": "Cono",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "259"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Semplice cono gelato fiordilatte"
+          },
+          {
+            "$id": "263",
+            "Nome": "Gelato \u0027Mix-In\u0027 (Oreo)",
+            "Prezzo": 3.2,
+            "Ingredienti": {
+              "$id": "264",
+              "$values": [
+                {
+                  "$id": "265",
+                  "Nome": "Gelato",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "263"
+                  }
+                },
+                {
+                  "$id": "266",
+                  "Nome": "Oreo",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "263"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Gelato fiordilatte con pezzetti di Oreo"
+          },
+          {
+            "$id": "267",
+            "Nome": "Gelato \u0027Mix-In\u0027 (KitKat)",
+            "Prezzo": 3.2,
+            "Ingredienti": {
+              "$id": "268",
+              "$values": [
+                {
+                  "$id": "269",
+                  "Nome": "Gelato",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "267"
+                  }
+                },
+                {
+                  "$id": "270",
+                  "Nome": "Kitkat",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "267"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Gelato fiordilatte con pezzetti di KitKat"
+          },
+          {
+            "$id": "271",
+            "Nome": "Cookie",
+            "Prezzo": 1.8,
+            "Ingredienti": {
+              "$id": "272",
+              "$values": [
+                {
+                  "$id": "273",
+                  "Nome": "Biscotto",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "271"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Biscotto con gocce di cioccolato"
+          },
+          {
+            "$id": "274",
+            "Nome": "Donut",
+            "Prezzo": 2.2,
+            "Ingredienti": {
+              "$id": "275",
+              "$values": [
+                {
+                  "$id": "276",
+                  "Nome": "Donut",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "274"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Ciambella glassata al cioccolato"
+          },
+          {
+            "$id": "277",
+            "Nome": "Torta di mele",
+            "Prezzo": 2.5,
+            "Ingredienti": {
+              "$id": "278",
+              "$values": [
+                {
+                  "$id": "279",
+                  "Nome": "Torta",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "277"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Sfoglia calda ripiena di mele e cannella"
+          },
+          {
+            "$id": "280",
+            "Nome": "Cheesecake",
+            "Prezzo": 3.8,
+            "Ingredienti": {
+              "$id": "281",
+              "$values": [
+                {
+                  "$id": "282",
+                  "Nome": "Cheescake",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "280"
+                  }
+                },
+                {
+                  "$id": "283",
+                  "Nome": "Topping",
+                  "Quantita": 1,
+                  "Prodotto": {
+                    "$ref": "280"
+                  }
+                }
+              ]
+            },
+            "Descrizione": "Fetta di cheesecake ai frutti di bosco"
+          }
+        ]
+      }
+    }
+  ]
+}

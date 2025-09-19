@@ -1,0 +1,77 @@
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.deps.json
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfo.cs
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\refint\ClassLibraryMcCadel.dll
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\anton\Desktop\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ref\ClassLibraryMcCadel.dll
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.deps.json
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfoInputs.cache
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfo.cs
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.csproj.CoreCompileInputs.cache
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\refint\ClassLibraryMcCadel.dll
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\sfrattar\Downloads\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ref\ClassLibraryMcCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.deps.json
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfo.cs
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\refint\ClassLibraryMcCadel.dll
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\anton\Desktop\McCadel\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ref\ClassLibraryMcCadel.dll
+D:\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.deps.json
+D:\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.dll
+D:\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.pdb
+D:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.GeneratedMSBuildEditorConfig.editorconfig
+D:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfoInputs.cache
+D:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfo.cs
+D:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.csproj.CoreCompileInputs.cache
+D:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.dll
+D:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\refint\ClassLibraryMcCadel.dll
+D:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.pdb
+D:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ref\ClassLibraryMcCadel.dll
+F:\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.deps.json
+F:\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.dll
+F:\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.pdb
+F:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.GeneratedMSBuildEditorConfig.editorconfig
+F:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfoInputs.cache
+F:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfo.cs
+F:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.csproj.CoreCompileInputs.cache
+F:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.dll
+F:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\refint\ClassLibraryMcCadel.dll
+F:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.pdb
+F:\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ref\ClassLibraryMcCadel.dll
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.deps.json
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfoInputs.cache
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfo.cs
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\refint\ClassLibraryMcCadel.dll
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\Leonardo\Desktop\Scuola\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ref\ClassLibraryMcCadel.dll
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.deps.json
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\bin\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfoInputs.cache
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.AssemblyInfo.cs
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.csproj.CoreCompileInputs.cache
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\refint\ClassLibraryMcCadel.dll
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\sfrattar\Downloads\Documento da parte di Salvatore Frattaruolo\McCadel\ClassLibraryMcCadel\obj\Debug\net8.0\ref\ClassLibraryMcCadel.dll
