@@ -1,16 +1,18 @@
-﻿namespace Classi
+﻿using System.ComponentModel;
+
+namespace Classi
 {
     public class Magazzino(Ristorante ristorante)
     {
+        static private Magazzino? magazzino;
         public Ristorante Ristorante { get; set; } = ristorante;
-        public List<Prodotto> Prodotti { get; set; } = [];
-
-        private List<Ingrediente> ingredienti = [];
+        public List<Prodotto> prodotti { get; set; } = [];
+        private List<Ingrediente> ingredienti { get; set; } = [];
 
 
         public Magazzino(Ristorante ristorante, List<Prodotto> prodotti, List<Ingrediente> ingredienti) : this(ristorante)
         {
-            Prodotti = prodotti;
+            this.prodotti = prodotti;
             this.ingredienti = ingredienti;
         }
 
@@ -115,6 +117,18 @@
             {
                 Rifornisci(ingrediente);
             }
+        }
+        static private Magazzino GetSampleData()
+        {
+            return new Magazzino(Ristorante.GetData()[0], Prodotto.GetData(), Ingrediente.GetData());
+        }
+        static public Magazzino GetData()
+        {
+            if (magazzino == null)
+            {
+                magazzino = GetSampleData();
+            }
+            return magazzino;
         }
     }
 }
