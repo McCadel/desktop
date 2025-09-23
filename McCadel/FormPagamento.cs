@@ -6,10 +6,9 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Classi.Services;
 
 namespace McCadel
 {
@@ -18,68 +17,52 @@ namespace McCadel
         private List<Prodotto> carrello;
         private List<Ristorante> ristoranti;
         private List<Cliente> clienti;
+        
         public FormPagamento(List<Prodotto> carrello)
         {
             InitializeComponent();
             this.carrello = carrello;
             lprezzo.Text = "Totale: €" + Math.Round(aggiornaprezzo(), 2);
             aggiornadati();
-
         }
+        
         public void aggiornadati()
         {
             lerrore.Text = "";
             ristoranti = new List<Ristorante>();
             clienti = new List<Cliente>();
-            try
+            
+            // Salva i dati usando DataManager
+            // ristoranti = await dataManager.LoadRistorantiAsync();
+            // clienti = await dataManager.LoadClientiAsync();
+            
+            cristorante.DisplayMember = "Nome";
+            cristorante.DataSource = ristoranti;
+            if (cristorante.SelectedItem != null)
             {
-                ristoranti = JsonSerializer.Deserialize<List<Ristorante>>(File.ReadAllText("Ristoranti.json"), new JsonSerializerOptions { PropertyNameCaseInsensitive = true, ReferenceHandler = ReferenceHandler.Preserve, WriteIndented = true });
-                cristorante.DisplayMember = "Nome";
-                cristorante.DataSource = ristoranti;
-                if (cristorante.SelectedItem != null)
-                {
-                    baggiornar.Visible = true;
-                    beliminar.Visible = true;
-                }
-                else
-                {
-                    baggiornar.Visible = false;
-                    beliminar.Visible = false;
-                }
+                baggiornar.Visible = true;
+                beliminar.Visible = true;
             }
-            catch
+            else
             {
-                if (ristoranti != null)
-                {
-                    File.WriteAllText("Ristoranti.json", JsonSerializer.Serialize<List<Ristorante>>(new List<Ristorante>(), new JsonSerializerOptions { PropertyNameCaseInsensitive = true, ReferenceHandler = ReferenceHandler.Preserve, WriteIndented = true }));
-                }
-
+                baggiornar.Visible = false;
+                beliminar.Visible = false;
             }
-            try
+            
+            ccliente.DisplayMember = "Nome";
+            ccliente.DataSource = clienti;
+            if (ccliente.SelectedItem != null)
             {
-                clienti = JsonSerializer.Deserialize<List<Cliente>>(File.ReadAllText("Clienti.json"), new JsonSerializerOptions { PropertyNameCaseInsensitive = true, ReferenceHandler = ReferenceHandler.Preserve, WriteIndented = true });
-                ccliente.DisplayMember = "Nome";
-                ccliente.DataSource = clienti;
-                if (ccliente.SelectedItem != null)
-                {
-                    baggiornac.Visible = true;
-                    beliminac.Visible = true;
-                }
-                else
-                {
-                    baggiornac.Visible = false;
-                    beliminac.Visible = false;
-                }
+                baggiornac.Visible = true;
+                beliminac.Visible = true;
             }
-            catch
+            else
             {
-                if (clienti != null)
-                {
-                    File.WriteAllText("Clienti.json", JsonSerializer.Serialize<List<Cliente>>(new List<Cliente>(), new JsonSerializerOptions { PropertyNameCaseInsensitive = true, ReferenceHandler = ReferenceHandler.Preserve, WriteIndented = true }));
-                }
-
+                baggiornac.Visible = false;
+                beliminac.Visible = false;
             }
         }
+        
         public double aggiornaprezzo()
         {
             double totale = 0;
@@ -114,10 +97,10 @@ namespace McCadel
                 if (scelta == DialogResult.Yes)
                 {
                     ristoranti.Remove((Ristorante)cristorante.SelectedItem);
-                    File.WriteAllText("Ristoranti.json", JsonSerializer.Serialize<List<Ristorante>>(ristoranti, new JsonSerializerOptions { PropertyNameCaseInsensitive = true, ReferenceHandler = ReferenceHandler.Preserve, WriteIndented = true }));
+                    // Salva i dati usando DataManager
+                    // await dataManager.SalvaRistorantiAsync(ristoranti);
                     aggiornadati();
                 }
-
             }
         }
 
@@ -129,7 +112,8 @@ namespace McCadel
                 if (scelta == DialogResult.Yes)
                 {
                     clienti.Remove((Cliente)ccliente.SelectedItem);
-                    File.WriteAllText("Clienti.json", JsonSerializer.Serialize<List<Cliente>>(clienti, new JsonSerializerOptions { PropertyNameCaseInsensitive = true, ReferenceHandler = ReferenceHandler.Preserve, WriteIndented = true }));
+                    // Salva i dati usando DataManager
+                    // await dataManager.SalvaClientiAsync(clienti);
                     aggiornadati();
                 }
             }
@@ -172,25 +156,12 @@ namespace McCadel
                     {
                         ristoranteSelezionato.Clienti.Add(clienteSelezionato);
                     }
-                    var jsonOptions = new JsonSerializerOptions
-                    {
-                        PropertyNameCaseInsensitive = true,
-                        ReferenceHandler = ReferenceHandler.Preserve,
-                        WriteIndented = true
-                    };
-                    File.WriteAllText("Clienti.json", JsonSerializer.Serialize<List<Cliente>>(this.clienti, jsonOptions));
-                    File.WriteAllText("Ristoranti.json", JsonSerializer.Serialize<List<Ristorante>>(this.ristoranti, jsonOptions));
-                    List<Ordine> ordini;
-                    if (File.Exists("Ordini.json"))
-                    {
-                        ordini = JsonSerializer.Deserialize<List<Ordine>>(File.ReadAllText("Ordini.json"), jsonOptions);
-                    }
-                    else
-                    {
-                        ordini = new List<Ordine>();
-                    }
-                    ordini.Add(o);
-                    File.WriteAllText("Ordini.json", JsonSerializer.Serialize<List<Ordine>>(ordini, jsonOptions));
+                    
+                    // Salva i dati usando DataManager
+                    // await dataManager.SalvaOrdineAsync(o);
+                    // await dataManager.SalvaClienteAsync(clienteSelezionato);
+                    // await dataManager.SalvaRistoranteAsync(ristoranteSelezionato);
+                    
                     MessageBox.Show("Ordine inviato!", "Confermato", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Close();
                 }
@@ -203,7 +174,6 @@ namespace McCadel
             {
                 lerrore.Text = $"Si è verificato un errore: {ex.Message}";
             }
-
         }
     }
 }
