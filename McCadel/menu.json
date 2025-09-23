@@ -1,0 +1,67 @@
+[
+  {
+    "Nome": "Antipasti",
+    "Prodotti": [
+      {
+        "Nome": "Bruschetta",
+        "Prezzo": 4.5
+      },
+      {
+        "Nome": "Caprese",
+        "Prezzo": 5.0
+      }
+    ]
+  },
+  {
+    "Nome": "Primi Piatti",
+    "Prodotti": [
+      {
+        "Nome": "Lasagna",
+        "Prezzo": 8.5
+      },
+      {
+        "Nome": "Spaghetti alla Carbonara",
+        "Prezzo": 9.0
+      }
+    ]
+  },
+  {
+    "Nome": "Secondi Piatti",
+    "Prodotti": [
+      {
+        "Nome": "Cotoletta alla Milanese",
+        "Prezzo": 10.0
+      },
+      {
+        "Nome": "Pollo al Limone",
+        "Prezzo": 9.5
+      }
+    ]
+  },
+  {
+    "Nome": "Dolci",
+    "Prodotti": [
+      {
+        "Nome": "Tiramisù",
+        "Prezzo": 4.0
+      },
+      {
+        "Nome": "Panna Cotta",
+        "Prezzo": 3.5
+      }
+    ]
+  },
+  {
+    "Nome": "Bevande",
+    "Prodotti": [
+      {
+        "Nome": "Acqua Naturale",
+        "Prezzo": 1.0
+      },
+      {
+        "Nome": "Coca Cola",
+        "Prezzo": 2.0
+      }
+    ]
+  }
+]

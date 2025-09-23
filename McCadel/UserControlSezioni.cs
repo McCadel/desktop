@@ -22,7 +22,13 @@ namespace McCadel
         {
             this.sala = sala;
             InitializeComponent();
-            List<Sezione> menuCompleto = JsonSerializer.Deserialize<List<Sezione>>(File.ReadAllText("menu.json"), new JsonSerializerOptions { PropertyNameCaseInsensitive = true , ReferenceHandler = ReferenceHandler.Preserve });
+            List<Sezione> menuCompleto = JsonSerializer.Deserialize<List<Sezione>>(
+                File.ReadAllText("../../../menu.json"), 
+                new JsonSerializerOptions { 
+                    PropertyNameCaseInsensitive = true,
+                    ReferenceHandler = ReferenceHandler.Preserve 
+                }
+            );
 
 
             Panel containerPanel = new Panel
