@@ -30,5 +30,11 @@
             return ingredienti;
         }
 
+
+        public override string ToString()
+        {
+            return nome + ": " + quantita;
+        }
+
     }
 }
