@@ -106,6 +106,7 @@
                     }
                     else throw new Exception($"Ingrediente {ingrediente.Nome} non trovato nel magazzino. Magari non sarà stato aggiunto al magazzino");
                 }
+                SaveDataToJson();
                 return true;
             }
             else
@@ -211,6 +212,12 @@
                 magazzino = GetSampleData();
             }
             return magazzino;
+        }
+
+
+        private void SaveDataToJson()
+        {
+            Ingrediente.SaveDataToJson();
         }
     }
 }

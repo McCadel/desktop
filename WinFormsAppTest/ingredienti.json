@@ -1,0 +1,38 @@
+[
+  {
+    "Nome": "Coca cola",
+    "Quantita": 10
+  },
+  {
+    "Nome": "Fanta",
+    "Quantita": 10
+  },
+  {
+    "Nome": "Carne",
+    "Quantita": 10
+  },
+  {
+    "Nome": "Insalata",
+    "Quantita": 10
+  },
+  {
+    "Nome": "Pomodoro",
+    "Quantita": 10
+  },
+  {
+    "Nome": "Maionese",
+    "Quantita": 28
+  },
+  {
+    "Nome": "Formaggio",
+    "Quantita": 10
+  },
+  {
+    "Nome": "Patatine",
+    "Quantita": 10
+  },
+  {
+    "Nome": "Nuggets",
+    "Quantita": 10
+  }
+]

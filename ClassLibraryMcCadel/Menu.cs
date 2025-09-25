@@ -20,7 +20,6 @@ namespace ClassLibraryMcCadel
             if (menus == null)
             {
                 menus = GetSampleData();
-                Prodotto.GetData();
             }
             return menus;
         }
