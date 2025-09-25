@@ -1,4 +1,6 @@
-﻿namespace ClassLibraryMcCadel
+﻿using System.ComponentModel;
+
+namespace ClassLibraryMcCadel
 {
     public class Ristorante
     {
@@ -26,5 +28,13 @@
         public List<Dipendente> Dipendenti { get => dipendenti; set => dipendenti = value; }
         public List<Ordine> Ordini { get => ordini; set { ordini = value; foreach (Ordine o in ordini) o.Ristorante = this; } }
         public List<Cliente> Clienti { get => clienti; set { clienti = value; foreach (Cliente c in clienti) c.Ristorante = this; } }
+
+        static public BindingList<Ristorante> GetData()
+        {
+            return new BindingList<Ristorante>()
+                   {
+                       new Ristorante("McCadel", "Via Roma")
+                   };
+        }
     }
 }

@@ -1,22 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 
 namespace ClassLibraryMcCadel
 {
-    public class Menu
+    public class Menu(string nome, List<Prodotto> prodotto)
     {
-        private string nome;
-        private List<Prodotto> prodotti;
+        static private List<Menu>? menus;
+        public string Nome { get; set; } = nome;
+        public List<Prodotto> Prodotti { get; set; } = prodotto;
 
-        public Menu(string nome, List<Prodotto> prodotto)
+        static private List<Menu> GetSampleData()
         {
-            this.nome = nome;
-            this.prodotti = prodotto;
+            return new List<Menu>()
+                {
+                    new Menu("CadelMenu", [])
+                };
         }
-        public string Nome { get => nome; set => nome = value; }
-        public List<Prodotto> Prodotti { get => prodotti; set => prodotti = value; }
+        static public List<Menu> GetData()
+        {
+            if (menus == null)
+            {
+                menus = GetSampleData();
+                Prodotto.GetData();
+            }
+            return menus;
+        }
+
     }
 }

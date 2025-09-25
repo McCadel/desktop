@@ -29,6 +29,6 @@ namespace ClassLibraryMcCadel
         {
             return $"{nome} {cognome}";
         }
-    
-}
+
+    }
 }

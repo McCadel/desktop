@@ -11,7 +11,7 @@ namespace ClassLibraryMcCadel
         private string nome;
         private string descrizione;
         private double prezzo;
-        private List<Ingrediente> ingredienti=new List<Ingrediente>();
+        private List<Ingrediente> ingredienti = new List<Ingrediente>();
 
         public Prodotto()
         {

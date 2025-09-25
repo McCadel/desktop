@@ -72,7 +72,7 @@ namespace McCadel
                 };
                 Label descrizione = new Label
                 {
-                    Text = p.Descrizione,
+                    Text = p.Nome,
                     Font = new Font("Arial", 9, FontStyle.Regular),
                     ForeColor = Color.FromArgb(100, 100, 100),
                     Location = new Point(8, 35),
@@ -115,7 +115,7 @@ namespace McCadel
 
         private void OnMenuItemClick(Prodotto p)
         {
-            DialogResult scelta=MessageBox.Show($"Hai selezionato:\n{p.Nome}\n{p.Descrizione}\nPrezzo: €{p.Prezzo:F2}\nAggiungerlo al carrello?","Menu McCadel", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            DialogResult scelta=MessageBox.Show($"Hai selezionato:\n{p.Nome}\n{p.Nome}\nPrezzo: €{p.Prezzo:F2}\nAggiungerlo al carrello?","Menu McCadel", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (scelta == DialogResult.Yes)
             {
                     Formhall.carrello.Add(p);

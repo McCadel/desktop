@@ -26,14 +26,15 @@ namespace ClassLibraryMcCadel
         }
         public int NumeroTavolo { get => numeroTavolo; set => numeroTavolo = value; }
         public Ristorante Ristorante { get => ristorante; set { ristorante = value; } }
-        public Cliente Cliente { get => cliente; set { cliente = value;  } }
+        public Cliente Cliente { get => cliente; set { cliente = value; } }
 
         public List<Prodotto> Prodotti { get => prodotti; set => prodotti = value; }
 
         public double calcolaPrezzo()
         {
             double prezzo = 0;
-            foreach(Prodotto p in prodotti){
+            foreach (Prodotto p in prodotti)
+            {
                 prezzo += p.Prezzo;
             }
             return prezzo;

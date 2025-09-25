@@ -1,30 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClassLibraryMcCadel
+﻿namespace ClassLibraryMcCadel
 {
-    public class Ingrediente
+    public class Ingrediente(string nome, int quantita)
     {
-        private string nome;
-        private int quantita;
-        private Prodotto prodotto;
-
-        public Ingrediente()
+        static private List<Ingrediente>? ingredienti;
+        public string Nome => nome;
+        public int Quantita { get; set; } = quantita;
+        static private List<Ingrediente> GetSampleData()
         {
+            return new List<Ingrediente>()
+                {
+
+                    new Ingrediente("Coca cola", 10),
+                    new Ingrediente("Fanta", 10),
+                    new Ingrediente("Carne", 10),
+                    new Ingrediente("Insalata", 10),
+                    new Ingrediente("Pomodoro", 10),
+                    new Ingrediente("Maionese", 30),
+                    new Ingrediente("Formaggio", 10),
+                    new Ingrediente("Patatine", 10),
+                    new Ingrediente("Nuggets", 10)
+                };
+        }
+        static public List<Ingrediente> GetData()
+        {
+            if (ingredienti == null)
+            {
+                ingredienti = GetSampleData();
+            }
+            return ingredienti;
         }
 
-        public Ingrediente(string nome, int quantita, Prodotto prodotto)
-        {
-            this.nome = nome;
-            this.quantita = quantita;
-            this.prodotto = prodotto;
-            this.prodotto.addingrediente(this);
-        }
-        public string Nome { get => nome; set => nome = value; }
-        public int Quantita { get => quantita; set => quantita = value; }
-        public Prodotto Prodotto { get => prodotto; set { prodotto = value; prodotto.addingrediente(this); } }
     }
 }

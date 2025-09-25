@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             bentra = new Button();
+            btnLoginAdmin = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // bentra
@@ -41,6 +43,25 @@
             bentra.UseVisualStyleBackColor = true;
             bentra.Click += bentra_click;
             // 
+            // btnLoginAdmin
+            // 
+            btnLoginAdmin.Location = new Point(774, 652);
+            btnLoginAdmin.Name = "btnLoginAdmin";
+            btnLoginAdmin.Size = new Size(116, 35);
+            btnLoginAdmin.TabIndex = 1;
+            btnLoginAdmin.Text = "Login Admin";
+            btnLoginAdmin.UseVisualStyleBackColor = true;
+            btnLoginAdmin.Click += btnLoginAdmin_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(24, 652);
+            button2.Name = "button2";
+            button2.Size = new Size(116, 35);
+            button2.TabIndex = 2;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // FormMcCadel
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -48,6 +69,8 @@
             BackgroundImage = Properties.Resources.entrata;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(916, 709);
+            Controls.Add(button2);
+            Controls.Add(btnLoginAdmin);
             Controls.Add(bentra);
             Name = "FormMcCadel";
             StartPosition = FormStartPosition.CenterScreen;
@@ -58,5 +81,7 @@
         #endregion
 
         private Button bentra;
+        private Button btnLoginAdmin;
+        private Button button2;
     }
 }

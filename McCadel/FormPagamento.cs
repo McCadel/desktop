@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Classi.Services;
+//using Classi.Services;
 
 namespace McCadel
 {
@@ -149,9 +149,9 @@ namespace McCadel
                 {
                     Cliente clienteSelezionato = (Cliente)ccliente.SelectedItem;
                     Ristorante ristoranteSelezionato = (Ristorante)cristorante.SelectedItem;
-                    Ordine o = new Ordine(tavolo, this.carrello, ristoranteSelezionato, clienteSelezionato);
-                    clienteSelezionato.Ordini.Add(o);
-                    ristoranteSelezionato.Ordini.Add(o);
+                    //Ordine o = new Ordine(tavolo, this.carrello, ristoranteSelezionato, clienteSelezionato);
+                    //clienteSelezionato.Ordini.Add(o);
+                    //ristoranteSelezionato.Ordini.Add(o);
                     if (!ristoranteSelezionato.Clienti.Contains(clienteSelezionato))
                     {
                         ristoranteSelezionato.Clienti.Add(clienteSelezionato);
