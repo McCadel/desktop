@@ -12,7 +12,7 @@ namespace WinFormsRistorante
         public FormAdmin()
         {
             InitializeComponent();
-            this.path = "C:\\Users\\diego\\source\\repos\\desktop\\McCadel\\Ristorante.json";
+            this.path = "Ristorante.json";
             this.r = System.Text.Json.JsonSerializer.Deserialize<Ristorante>(System.IO.File.ReadAllText(path));
             if (r != null) dgvDipendenti.DataSource = r.Dipendenti;
         }

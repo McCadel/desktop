@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryMcCadel", "Clas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAppTest", "WinFormsAppTest\WinFormsAppTest.csproj", "{DA7B54B6-2378-4600-876E-BF7F39FC19D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonManager", "JsonManager\JsonManager.csproj", "{1D661F0C-35B5-4C40-92BA-1B6D8D2CC36E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DA7B54B6-2378-4600-876E-BF7F39FC19D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA7B54B6-2378-4600-876E-BF7F39FC19D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA7B54B6-2378-4600-876E-BF7F39FC19D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D661F0C-35B5-4C40-92BA-1B6D8D2CC36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D661F0C-35B5-4C40-92BA-1B6D8D2CC36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D661F0C-35B5-4C40-92BA-1B6D8D2CC36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D661F0C-35B5-4C40-92BA-1B6D8D2CC36E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

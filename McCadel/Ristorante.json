@@ -1,78 +1,9 @@
-{
-  "Nome": "McCadel",
-  "Indirizzo": "Via Roma 123, Milano",
-  "Dipendenti": [
+[
     {
-      "Nome": "Giovanni",
-      "Cognome": "Rossi",
-      "Stipendio": 2000.0
-    },
-    {
-      "Nome": "Maria",
-      "Cognome": "Bianchi",
-      "Stipendio": 1800.0
-    },
-    {
-      "Nome": "Luca",
-      "Cognome": "Verdi",
-      "Stipendio": 2200.0
-    }
-  ],
-  "Clienti": [
-    {
-      "Nome": "Alessandro",
-      "Cognome": "Neri",
-      "Ordini": []
-    },
-    {
-      "Nome": "Francesca",
-      "Cognome": "Blu",
-      "Ordini": []
-    }
-  ],
-  "Ordini": [
-    {
-      "NumeroTavolo": 5,
-      "Prodotti": [
-        {
-          "Nome": "Pizza Margherita",
-          "Descrizione": "Pomodoro, mozzarella, basilico",
-          "Prezzo": 8.50
-        },
-        {
-          "Nome": "Pasta Carbonara",
-          "Descrizione": "Pasta, uova, pancetta, pecorino",
-          "Prezzo": 10.00
-        }
-      ],
-      "Ristorante": {
         "Nome": "McCadel",
-        "Indirizzo": "Via Roma 123, Milano"
-      },
-      "Cliente": {
-        "Nome": "Alessandro",
-        "Cognome": "Neri",
-        "Ordini": []
-      }
-    },
-    {
-      "NumeroTavolo": 3,
-      "Prodotti": [
-        {
-          "Nome": "Insalata Mista",
-          "Descrizione": "Verdure fresche di stagione",
-          "Prezzo": 6.00
-        }
-      ],
-      "Ristorante": {
-        "Nome": "McCadel",
-        "Indirizzo": "Via Roma 123, Milano"
-      },
-      "Cliente": {
-        "Nome": "Francesca",
-        "Cognome": "Blu",
-        "Ordini": []
-      }
+        "Indirizzo": "Via Roma 123, Milano",
+        "Dipendenti": [],
+        "Ordini": [],
+        "Clienti": []
     }
-  ]
-}
+]

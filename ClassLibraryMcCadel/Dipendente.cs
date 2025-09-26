@@ -13,6 +13,11 @@ namespace ClassLibraryMcCadel
         private string cognome;
         private double stipendio;
 
+        public Dipendente()
+        {
+
+        }
+
         public Dipendente(Ristorante ristorante, string nome, string cognome, double stipendio)
         {
             this.ristorante = ristorante;

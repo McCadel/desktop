@@ -1,4 +1,5 @@
 ﻿using ClassLibraryMcCadel;
+using JsonManager;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,15 +27,16 @@ namespace McCadel
             aggiornadati();
         }
         
-        public void aggiornadati()
+        public async void aggiornadati()
         {
             lerrore.Text = "";
             ristoranti = new List<Ristorante>();
             clienti = new List<Cliente>();
             
             // Salva i dati usando DataManager
-            // ristoranti = await dataManager.LoadRistorantiAsync();
-            // clienti = await dataManager.LoadClientiAsync();
+            DataManager dm = new DataManager();
+            ristoranti = await dm.CaricaRistorantiAsync();
+            clienti = await dm.CaricaClientiAsync();
             
             cristorante.DisplayMember = "Nome";
             cristorante.DataSource = ristoranti;

@@ -1,0 +1,15 @@
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\obj\Debug\net8.0\JsonManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\obj\Debug\net8.0\JsonManager.AssemblyInfoInputs.cache
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\obj\Debug\net8.0\JsonManager.AssemblyInfo.cs
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\obj\Debug\net8.0\JsonManager.csproj.CoreCompileInputs.cache
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\bin\Debug\net8.0\JsonManager.deps.json
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\bin\Debug\net8.0\JsonManager.dll
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\bin\Debug\net8.0\JsonManager.pdb
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\bin\Debug\net8.0\ClassLibraryMcCadel.dll
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\bin\Debug\net8.0\ClassLibraryMcCadel.pdb
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\obj\Debug\net8.0\JsonManager.csproj.AssemblyReference.cache
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\obj\Debug\net8.0\JsonMana.5BAACEA4.Up2Date
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\obj\Debug\net8.0\JsonManager.dll
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\obj\Debug\net8.0\refint\JsonManager.dll
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\obj\Debug\net8.0\JsonManager.pdb
+C:\Users\dPagani\source\repos\desktop-main\JsonManager\obj\Debug\net8.0\ref\JsonManager.dll
