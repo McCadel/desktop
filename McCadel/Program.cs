@@ -1,3 +1,5 @@
+using WinFormsRistorante;
+
 namespace McCadel
 {
     internal static class Program
@@ -12,6 +14,7 @@ namespace McCadel
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Formhall());
+            //Application.Run(new FormAdmin());
         }
     }
 }

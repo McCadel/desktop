@@ -12,4 +12,10 @@
     <ProjectReference Include="..\ClassLibraryMcCadel\ClassLibraryMcCadel.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="menu.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
