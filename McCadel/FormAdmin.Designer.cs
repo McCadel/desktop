@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+using System.Drawing;
+using System.Windows.Forms;
 
 namespace WinFormsRistorante
 {
@@ -6,69 +7,41 @@ namespace WinFormsRistorante
     {
         private DataGridView dgvDipendenti;
         private Button btnAggiungiDipendente;
-        private TextBox txtNomeIngrediente;
-        private TextBox txtQuantitaIngrediente;
-        private Button btnAggiungiIngrediente;
 
         private void InitializeComponent()
         {
             dgvDipendenti = new DataGridView();
-            btnRimuovi = new DataGridViewButtonColumn();
-            btnModifica = new DataGridViewButtonColumn();
             btnAggiungiDipendente = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDipendenti).BeginInit();
             SuspendLayout();
             // 
             // dgvDipendenti
             // 
-            dgvDipendenti.Columns.AddRange(new DataGridViewColumn[] { btnRimuovi, btnModifica });
             dgvDipendenti.Location = new Point(12, 12);
             dgvDipendenti.Name = "dgvDipendenti";
-            dgvDipendenti.Size = new Size(881, 281);
+            dgvDipendenti.Size = new Size(560, 250);
             dgvDipendenti.TabIndex = 0;
-            dgvDipendenti.CellContentClick += dgvDipendenti_CellContentClick;
-            // 
-            // btnRimuovi
-            // 
-            btnRimuovi.HeaderText = "Rimuovi";
-            btnRimuovi.Name = "btnRimuovi";
-            btnRimuovi.ReadOnly = true;
-            btnRimuovi.Text = "Rimuovi";
-            btnRimuovi.UseColumnTextForButtonValue = true;
-            // 
-            // btnModifica
-            // 
-            btnModifica.HeaderText = "Modifica";
-            btnModifica.Name = "btnModifica";
-            btnModifica.ReadOnly = true;
-            btnModifica.Text = "Modifica";
-            btnModifica.UseColumnTextForButtonValue = true;
+            dgvDipendenti.CellContentClick += DgvDipendenti_CellContentClick;
             // 
             // btnAggiungiDipendente
             // 
-            btnAggiungiDipendente.Location = new Point(280, 340);
+            btnAggiungiDipendente.Location = new Point(180, 280);
             btnAggiungiDipendente.Name = "btnAggiungiDipendente";
-            btnAggiungiDipendente.Size = new Size(282, 73);
-            btnAggiungiDipendente.TabIndex = 4;
+            btnAggiungiDipendente.Size = new Size(200, 40);
+            btnAggiungiDipendente.TabIndex = 1;
             btnAggiungiDipendente.Text = "Aggiungi Dipendente";
             btnAggiungiDipendente.Click += btnAggiungiDipendente_Click;
             // 
             // FormAdmin
             // 
-            ClientSize = new Size(910, 450);
+            ClientSize = new Size(600, 350);
             Controls.Add(dgvDipendenti);
             Controls.Add(btnAggiungiDipendente);
             Name = "FormAdmin";
-            Text = "FormAdmin";
+            Text = "Amministrazione Dipendenti";
+            Load += FormAdmin_Load;
             ((System.ComponentModel.ISupportInitialize)dgvDipendenti).EndInit();
             ResumeLayout(false);
         }
-
-        private void btnAggiungiDipendente_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-        private DataGridViewButtonColumn btnRimuovi;
-        private DataGridViewButtonColumn btnModifica;
     }
 }
