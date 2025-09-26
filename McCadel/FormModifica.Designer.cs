@@ -1,20 +1,19 @@
-﻿using static System.Net.Mime.MediaTypeNames;
+﻿using System;
 using System.Windows.Forms;
-using System.Xml.Linq;
 
 namespace McCadel
 {
     partial class FormModifica
     {
         /// <summary>
-        /// Required designer variable.
+        /// Variabile di progettazione necessaria.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// Pulire le risorse in uso.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true se le risorse gestite devono essere eliminate, false in caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -24,12 +23,8 @@ namespace McCadel
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Codice generato da Progettazione Windows Form
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             userControlModDipAdmin2 = new UserControlModDipAdmin();
@@ -37,25 +32,28 @@ namespace McCadel
             // 
             // userControlModDipAdmin2
             // 
-            userControlModDipAdmin2.Location = new Point(3, 1);
+            userControlModDipAdmin2.Location = new Point(10, 10);
             userControlModDipAdmin2.Name = "userControlModDipAdmin2";
-            userControlModDipAdmin2.Size = new Size(274, 214);
+            userControlModDipAdmin2.Size = new Size(280, 200);
             userControlModDipAdmin2.TabIndex = 0;
+            userControlModDipAdmin2.Load += userControlModDipAdmin2_Load;
             // 
             // FormModifica
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(278, 213);
+            ClientSize = new Size(300, 220);
             Controls.Add(userControlModDipAdmin2);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "FormModifica";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Modifica Dipendente";
+            Load += FormModifica_Load;
             ResumeLayout(false);
         }
 
         #endregion
 
-        private UserControlModDipAdmin userControlModDipAdmin1;
         private UserControlModDipAdmin userControlModDipAdmin2;
     }
 }

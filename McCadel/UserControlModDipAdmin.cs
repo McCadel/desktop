@@ -1,38 +1,42 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ClassLibraryMcCadel;
+using System;
 using System.Windows.Forms;
-using ClassLibraryMcCadel;
 
 namespace McCadel
 {
     public partial class UserControlModDipAdmin : UserControl
     {
         private Dipendente dip;
+        public event Action<Dipendente>? DipendenteModificato;
+
         public UserControlModDipAdmin()
         {
             InitializeComponent();
         }
 
-        public UserControlModDipAdmin(Dipendente d) : this()
+        public void SetDipendente(Dipendente d)
         {
-            InitializeComponent();
             dip = d;
-            txtName.Text = d.Nome + d.Cognome;
-            txtStipendio.Text = d.Stipendio.ToString();
+            txtNome.Text = dip.Nome;
+            txtCognome.Text = dip.Cognome;
+            nudStipendio.Value = (decimal)dip.Stipendio;
         }
 
-        private void btnModStipendio_Click(object sender, EventArgs e)
+        private void btnModifica_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(txtStipendio.Text, out int nuovoStipendio))
-            {
-                dip.Stipendio = nuovoStipendio;
-            }
+            if (dip == null) return;
+
+            dip.Nome = txtNome.Text.Trim();
+            dip.Cognome = txtCognome.Text.Trim();
+            dip.Stipendio = (double)nudStipendio.Value;
+
+            DipendenteModificato?.Invoke(dip);
+            MessageBox.Show("Dipendente modificato!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void UserControlModDipAdmin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

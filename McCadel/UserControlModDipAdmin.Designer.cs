@@ -1,19 +1,19 @@
-﻿using System.Windows.Forms;
-using System.Xml.Linq;
+﻿using System.Drawing;
+using System.Windows.Forms;
 
 namespace McCadel
 {
     partial class UserControlModDipAdmin
     {
-        /// <summary> 
-        /// Variabile di progettazione necessaria.
-        /// </summary>
+        private Label lblNome;
+        private Label lblCognome;
+        private Label lblStipendio;
+        private TextBox txtNome;
+        private TextBox txtCognome;
+        private NumericUpDown nudStipendio;
+        private Button btnModifica;
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary> 
-        /// Pulire le risorse in uso.
-        /// </summary>
-        /// <param name="disposing">ha valore true se le risorse gestite devono essere eliminate, false in caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -23,85 +23,91 @@ namespace McCadel
             base.Dispose(disposing);
         }
 
-        #region Codice generato da Progettazione componenti
-
-        /// <summary> 
-        /// Metodo necessario per il supporto della finestra di progettazione. Non modificare 
-        /// il contenuto del metodo con l'editor di codice.
-        /// </summary>
         private void InitializeComponent()
         {
-            lblNameDip = new Label();
+            lblNome = new Label();
+            lblCognome = new Label();
             lblStipendio = new Label();
-            txtName = new TextBox();
-            txtStipendio = new TextBox();
-            btnModStipendio = new Button();
+            txtNome = new TextBox();
+            txtCognome = new TextBox();
+            nudStipendio = new NumericUpDown();
+            btnModifica = new Button();
+            ((System.ComponentModel.ISupportInitialize)nudStipendio).BeginInit();
             SuspendLayout();
             // 
-            // lblNameDip
+            // lblNome
             // 
-            lblNameDip.AutoSize = true;
-            lblNameDip.Location = new Point(34, 35);
-            lblNameDip.Name = "lblNameDip";
-            lblNameDip.Size = new Size(68, 15);
-            lblNameDip.TabIndex = 0;
-            lblNameDip.Text = "Dipendente";
+            lblNome.AutoSize = true;
+            lblNome.Location = new Point(20, 20);
+            lblNome.Name = "lblNome";
+            lblNome.Size = new Size(40, 15);
+            lblNome.TabIndex = 0;
+            lblNome.Text = "Nome";
+            // 
+            // lblCognome
+            // 
+            lblCognome.AutoSize = true;
+            lblCognome.Location = new Point(20, 60);
+            lblCognome.Name = "lblCognome";
+            lblCognome.Size = new Size(60, 15);
+            lblCognome.TabIndex = 2;
+            lblCognome.Text = "Cognome";
             // 
             // lblStipendio
             // 
             lblStipendio.AutoSize = true;
-            lblStipendio.Location = new Point(34, 97);
+            lblStipendio.Location = new Point(20, 100);
             lblStipendio.Name = "lblStipendio";
             lblStipendio.Size = new Size(57, 15);
-            lblStipendio.TabIndex = 1;
+            lblStipendio.TabIndex = 4;
             lblStipendio.Text = "Stipendio";
             // 
-            // txtName
+            // txtNome
             // 
-            txtName.Location = new Point(153, 35);
-            txtName.Name = "txtName";
-            txtName.ReadOnly = true;
-            txtName.Size = new Size(100, 23);
-            txtName.TabIndex = 2;
+            txtNome.Location = new Point(100, 17);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(150, 23);
+            txtNome.TabIndex = 1;
             // 
-            // txtStipendio
+            // txtCognome
             // 
-            txtStipendio.Location = new Point(153, 94);
-            txtStipendio.Name = "txtStipendio";
-            txtStipendio.Size = new Size(100, 23);
-            txtStipendio.TabIndex = 3;
+            txtCognome.Location = new Point(100, 57);
+            txtCognome.Name = "txtCognome";
+            txtCognome.Size = new Size(150, 23);
+            txtCognome.TabIndex = 3;
             // 
-            // btnModStipendio
+            // nudStipendio
             // 
-            btnModStipendio.Location = new Point(70, 158);
-            btnModStipendio.Name = "btnModStipendio";
-            btnModStipendio.Size = new Size(136, 31);
-            btnModStipendio.TabIndex = 4;
-            btnModStipendio.Text = "Modifica Stipendio";
-            btnModStipendio.UseVisualStyleBackColor = true;
-            btnModStipendio.Click += btnModStipendio_Click;
+            nudStipendio.Location = new Point(100, 98);
+            nudStipendio.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
+            nudStipendio.Name = "nudStipendio";
+            nudStipendio.Size = new Size(120, 23);
+            nudStipendio.TabIndex = 5;
+            // 
+            // btnModifica
+            // 
+            btnModifica.Location = new Point(60, 140);
+            btnModifica.Name = "btnModifica";
+            btnModifica.Size = new Size(150, 30);
+            btnModifica.TabIndex = 6;
+            btnModifica.Text = "Modifica Dipendente";
+            btnModifica.Click += btnModifica_Click;
             // 
             // UserControlModDipAdmin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(btnModStipendio);
-            Controls.Add(txtStipendio);
-            Controls.Add(txtName);
+            Controls.Add(lblNome);
+            Controls.Add(txtNome);
+            Controls.Add(lblCognome);
+            Controls.Add(txtCognome);
             Controls.Add(lblStipendio);
-            Controls.Add(lblNameDip);
+            Controls.Add(nudStipendio);
+            Controls.Add(btnModifica);
             Name = "UserControlModDipAdmin";
-            Size = new Size(274, 214);
+            Size = new Size(280, 190);
+            Load += UserControlModDipAdmin_Load;
+            ((System.ComponentModel.ISupportInitialize)nudStipendio).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
-
-        #endregion
-
-        private Label lblNameDip;
-        private Label lblStipendio;
-        private TextBox txtName;
-        private TextBox txtStipendio;
-        private Button btnModStipendio;
     }
 }

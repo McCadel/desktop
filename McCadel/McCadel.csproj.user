@@ -5,6 +5,9 @@
     <Compile Update="FormAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormAggiungiDipendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormCarrello.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -25,6 +28,9 @@
     </Compile>
     <Compile Update="FormRistorante.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControlAggiungiDipendente.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControlMenu.cs">
       <SubType>UserControl</SubType>

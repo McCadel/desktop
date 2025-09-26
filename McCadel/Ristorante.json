@@ -1,9 +1,920 @@
-[
+{
+  "$id": "1",
+  "$values": [
     {
-        "Nome": "McCadel",
-        "Indirizzo": "Via Roma 123, Milano",
-        "Dipendenti": [],
-        "Ordini": [],
-        "Clienti": []
+      "$id": "2",
+      "Nome": "MCadel",
+      "Indirizzo": "Via Torelli 17",
+      "Dipendenti": {
+        "$id": "3",
+        "$values": []
+      },
+      "Ordini": {
+        "$id": "4",
+        "$values": [
+          {
+            "$id": "5",
+            "NumeroTavolo": 17,
+            "Ristorante": {
+              "$ref": "2"
+            },
+            "Cliente": {
+              "$id": "6",
+              "Nome": "Salvatore",
+              "Cognome": "Frattaruolo",
+              "Ristorante": {
+                "$ref": "2"
+              },
+              "Ordini": {
+                "$id": "7",
+                "$values": [
+                  {
+                    "$ref": "5"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "$id": "8",
+            "NumeroTavolo": 17,
+            "Ristorante": {
+              "$ref": "2"
+            },
+            "Cliente": {
+              "$id": "9",
+              "Nome": "Salvatore",
+              "Cognome": "Frattaruolo",
+              "Ristorante": {
+                "$ref": "2"
+              },
+              "Ordini": {
+                "$id": "10",
+                "$values": [
+                  {
+                    "$id": "11",
+                    "NumeroTavolo": 17,
+                    "Ristorante": {
+                      "$id": "12",
+                      "Nome": "MCadel",
+                      "Indirizzo": "Via Torelli 17",
+                      "Dipendenti": {
+                        "$id": "13",
+                        "$values": []
+                      },
+                      "Ordini": {
+                        "$id": "14",
+                        "$values": [
+                          {
+                            "$ref": "11"
+                          }
+                        ]
+                      },
+                      "Clienti": {
+                        "$id": "15",
+                        "$values": [
+                          {
+                            "$ref": "9"
+                          }
+                        ]
+                      }
+                    },
+                    "Cliente": {
+                      "$ref": "9"
+                    }
+                  },
+                  {
+                    "$ref": "8"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "$id": "16",
+            "NumeroTavolo": 45,
+            "Ristorante": {
+              "$ref": "2"
+            },
+            "Cliente": {
+              "$id": "17",
+              "Nome": "Salvatore",
+              "Cognome": "Frattaruolo",
+              "Ristorante": {
+                "$ref": "2"
+              },
+              "Ordini": {
+                "$id": "18",
+                "$values": [
+                  {
+                    "$id": "19",
+                    "NumeroTavolo": 17,
+                    "Ristorante": {
+                      "$id": "20",
+                      "Nome": "MCadel",
+                      "Indirizzo": "Via Torelli 17",
+                      "Dipendenti": {
+                        "$id": "21",
+                        "$values": []
+                      },
+                      "Ordini": {
+                        "$id": "22",
+                        "$values": [
+                          {
+                            "$ref": "19"
+                          }
+                        ]
+                      },
+                      "Clienti": {
+                        "$id": "23",
+                        "$values": [
+                          {
+                            "$ref": "17"
+                          }
+                        ]
+                      }
+                    },
+                    "Cliente": {
+                      "$ref": "17"
+                    }
+                  },
+                  {
+                    "$id": "24",
+                    "NumeroTavolo": 17,
+                    "Ristorante": {
+                      "$id": "25",
+                      "Nome": "MCadel",
+                      "Indirizzo": "Via Torelli 17",
+                      "Dipendenti": {
+                        "$id": "26",
+                        "$values": []
+                      },
+                      "Ordini": {
+                        "$id": "27",
+                        "$values": [
+                          {
+                            "$id": "28",
+                            "NumeroTavolo": 17,
+                            "Ristorante": {
+                              "$ref": "25"
+                            },
+                            "Cliente": {
+                              "$id": "29",
+                              "Nome": "Salvatore",
+                              "Cognome": "Frattaruolo",
+                              "Ristorante": {
+                                "$ref": "25"
+                              },
+                              "Ordini": {
+                                "$id": "30",
+                                "$values": [
+                                  {
+                                    "$ref": "28"
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "$ref": "24"
+                          }
+                        ]
+                      },
+                      "Clienti": {
+                        "$id": "31",
+                        "$values": [
+                          {
+                            "$ref": "29"
+                          },
+                          {
+                            "$ref": "17"
+                          }
+                        ]
+                      }
+                    },
+                    "Cliente": {
+                      "$ref": "17"
+                    }
+                  },
+                  {
+                    "$ref": "16"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "$id": "32",
+            "NumeroTavolo": 56,
+            "Ristorante": {
+              "$ref": "2"
+            },
+            "Cliente": {
+              "$id": "33",
+              "Nome": "Salvatore",
+              "Cognome": "Frattaruolo",
+              "Ristorante": {
+                "$ref": "2"
+              },
+              "Ordini": {
+                "$id": "34",
+                "$values": [
+                  {
+                    "$id": "35",
+                    "NumeroTavolo": 17,
+                    "Ristorante": {
+                      "$id": "36",
+                      "Nome": "MCadel",
+                      "Indirizzo": "Via Torelli 17",
+                      "Dipendenti": {
+                        "$id": "37",
+                        "$values": []
+                      },
+                      "Ordini": {
+                        "$id": "38",
+                        "$values": [
+                          {
+                            "$ref": "35"
+                          }
+                        ]
+                      },
+                      "Clienti": {
+                        "$id": "39",
+                        "$values": [
+                          {
+                            "$ref": "33"
+                          }
+                        ]
+                      }
+                    },
+                    "Cliente": {
+                      "$ref": "33"
+                    }
+                  },
+                  {
+                    "$id": "40",
+                    "NumeroTavolo": 17,
+                    "Ristorante": {
+                      "$id": "41",
+                      "Nome": "MCadel",
+                      "Indirizzo": "Via Torelli 17",
+                      "Dipendenti": {
+                        "$id": "42",
+                        "$values": []
+                      },
+                      "Ordini": {
+                        "$id": "43",
+                        "$values": [
+                          {
+                            "$id": "44",
+                            "NumeroTavolo": 17,
+                            "Ristorante": {
+                              "$ref": "41"
+                            },
+                            "Cliente": {
+                              "$id": "45",
+                              "Nome": "Salvatore",
+                              "Cognome": "Frattaruolo",
+                              "Ristorante": {
+                                "$ref": "41"
+                              },
+                              "Ordini": {
+                                "$id": "46",
+                                "$values": [
+                                  {
+                                    "$ref": "44"
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "$ref": "40"
+                          }
+                        ]
+                      },
+                      "Clienti": {
+                        "$id": "47",
+                        "$values": [
+                          {
+                            "$ref": "45"
+                          },
+                          {
+                            "$ref": "33"
+                          }
+                        ]
+                      }
+                    },
+                    "Cliente": {
+                      "$ref": "33"
+                    }
+                  },
+                  {
+                    "$id": "48",
+                    "NumeroTavolo": 45,
+                    "Ristorante": {
+                      "$id": "49",
+                      "Nome": "MCadel",
+                      "Indirizzo": "Via Torelli 17",
+                      "Dipendenti": {
+                        "$id": "50",
+                        "$values": []
+                      },
+                      "Ordini": {
+                        "$id": "51",
+                        "$values": [
+                          {
+                            "$id": "52",
+                            "NumeroTavolo": 17,
+                            "Ristorante": {
+                              "$ref": "49"
+                            },
+                            "Cliente": {
+                              "$id": "53",
+                              "Nome": "Salvatore",
+                              "Cognome": "Frattaruolo",
+                              "Ristorante": {
+                                "$ref": "49"
+                              },
+                              "Ordini": {
+                                "$id": "54",
+                                "$values": [
+                                  {
+                                    "$ref": "52"
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "$id": "55",
+                            "NumeroTavolo": 17,
+                            "Ristorante": {
+                              "$ref": "49"
+                            },
+                            "Cliente": {
+                              "$id": "56",
+                              "Nome": "Salvatore",
+                              "Cognome": "Frattaruolo",
+                              "Ristorante": {
+                                "$ref": "49"
+                              },
+                              "Ordini": {
+                                "$id": "57",
+                                "$values": [
+                                  {
+                                    "$id": "58",
+                                    "NumeroTavolo": 17,
+                                    "Ristorante": {
+                                      "$id": "59",
+                                      "Nome": "MCadel",
+                                      "Indirizzo": "Via Torelli 17",
+                                      "Dipendenti": {
+                                        "$id": "60",
+                                        "$values": []
+                                      },
+                                      "Ordini": {
+                                        "$id": "61",
+                                        "$values": [
+                                          {
+                                            "$ref": "58"
+                                          }
+                                        ]
+                                      },
+                                      "Clienti": {
+                                        "$id": "62",
+                                        "$values": [
+                                          {
+                                            "$ref": "56"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "Cliente": {
+                                      "$ref": "56"
+                                    }
+                                  },
+                                  {
+                                    "$ref": "55"
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "$ref": "48"
+                          }
+                        ]
+                      },
+                      "Clienti": {
+                        "$id": "63",
+                        "$values": [
+                          {
+                            "$ref": "53"
+                          },
+                          {
+                            "$ref": "56"
+                          },
+                          {
+                            "$ref": "33"
+                          }
+                        ]
+                      }
+                    },
+                    "Cliente": {
+                      "$ref": "33"
+                    }
+                  },
+                  {
+                    "$ref": "32"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "$id": "64",
+            "NumeroTavolo": 123,
+            "Ristorante": {
+              "$ref": "2"
+            },
+            "Cliente": {
+              "$id": "65",
+              "Nome": "Salvatore",
+              "Cognome": "Frattaruolo",
+              "Ristorante": {
+                "$id": "66",
+                "Nome": "MCadel",
+                "Indirizzo": "Via Torelli 17",
+                "Dipendenti": {
+                  "$id": "67",
+                  "$values": []
+                },
+                "Ordini": {
+                  "$id": "68",
+                  "$values": [
+                    {
+                      "$id": "69",
+                      "NumeroTavolo": 17,
+                      "Ristorante": {
+                        "$ref": "66"
+                      },
+                      "Cliente": {
+                        "$id": "70",
+                        "Nome": "Salvatore",
+                        "Cognome": "Frattaruolo",
+                        "Ristorante": {
+                          "$ref": "66"
+                        },
+                        "Ordini": {
+                          "$id": "71",
+                          "$values": [
+                            {
+                              "$ref": "69"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "$id": "72",
+                      "NumeroTavolo": 17,
+                      "Ristorante": {
+                        "$ref": "66"
+                      },
+                      "Cliente": {
+                        "$id": "73",
+                        "Nome": "Salvatore",
+                        "Cognome": "Frattaruolo",
+                        "Ristorante": {
+                          "$ref": "66"
+                        },
+                        "Ordini": {
+                          "$id": "74",
+                          "$values": [
+                            {
+                              "$id": "75",
+                              "NumeroTavolo": 17,
+                              "Ristorante": {
+                                "$id": "76",
+                                "Nome": "MCadel",
+                                "Indirizzo": "Via Torelli 17",
+                                "Dipendenti": {
+                                  "$id": "77",
+                                  "$values": []
+                                },
+                                "Ordini": {
+                                  "$id": "78",
+                                  "$values": [
+                                    {
+                                      "$ref": "75"
+                                    }
+                                  ]
+                                },
+                                "Clienti": {
+                                  "$id": "79",
+                                  "$values": [
+                                    {
+                                      "$ref": "73"
+                                    }
+                                  ]
+                                }
+                              },
+                              "Cliente": {
+                                "$ref": "73"
+                              }
+                            },
+                            {
+                              "$ref": "72"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "$id": "80",
+                      "NumeroTavolo": 45,
+                      "Ristorante": {
+                        "$ref": "66"
+                      },
+                      "Cliente": {
+                        "$id": "81",
+                        "Nome": "Salvatore",
+                        "Cognome": "Frattaruolo",
+                        "Ristorante": {
+                          "$ref": "66"
+                        },
+                        "Ordini": {
+                          "$id": "82",
+                          "$values": [
+                            {
+                              "$id": "83",
+                              "NumeroTavolo": 17,
+                              "Ristorante": {
+                                "$id": "84",
+                                "Nome": "MCadel",
+                                "Indirizzo": "Via Torelli 17",
+                                "Dipendenti": {
+                                  "$id": "85",
+                                  "$values": []
+                                },
+                                "Ordini": {
+                                  "$id": "86",
+                                  "$values": [
+                                    {
+                                      "$ref": "83"
+                                    }
+                                  ]
+                                },
+                                "Clienti": {
+                                  "$id": "87",
+                                  "$values": [
+                                    {
+                                      "$ref": "81"
+                                    }
+                                  ]
+                                }
+                              },
+                              "Cliente": {
+                                "$ref": "81"
+                              }
+                            },
+                            {
+                              "$id": "88",
+                              "NumeroTavolo": 17,
+                              "Ristorante": {
+                                "$id": "89",
+                                "Nome": "MCadel",
+                                "Indirizzo": "Via Torelli 17",
+                                "Dipendenti": {
+                                  "$id": "90",
+                                  "$values": []
+                                },
+                                "Ordini": {
+                                  "$id": "91",
+                                  "$values": [
+                                    {
+                                      "$id": "92",
+                                      "NumeroTavolo": 17,
+                                      "Ristorante": {
+                                        "$ref": "89"
+                                      },
+                                      "Cliente": {
+                                        "$id": "93",
+                                        "Nome": "Salvatore",
+                                        "Cognome": "Frattaruolo",
+                                        "Ristorante": {
+                                          "$ref": "89"
+                                        },
+                                        "Ordini": {
+                                          "$id": "94",
+                                          "$values": [
+                                            {
+                                              "$ref": "92"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "$ref": "88"
+                                    }
+                                  ]
+                                },
+                                "Clienti": {
+                                  "$id": "95",
+                                  "$values": [
+                                    {
+                                      "$ref": "93"
+                                    },
+                                    {
+                                      "$ref": "81"
+                                    }
+                                  ]
+                                }
+                              },
+                              "Cliente": {
+                                "$ref": "81"
+                              }
+                            },
+                            {
+                              "$ref": "80"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "$id": "96",
+                      "NumeroTavolo": 56,
+                      "Ristorante": {
+                        "$ref": "66"
+                      },
+                      "Cliente": {
+                        "$ref": "65"
+                      }
+                    }
+                  ]
+                },
+                "Clienti": {
+                  "$id": "97",
+                  "$values": [
+                    {
+                      "$ref": "70"
+                    },
+                    {
+                      "$ref": "73"
+                    },
+                    {
+                      "$ref": "81"
+                    },
+                    {
+                      "$ref": "65"
+                    }
+                  ]
+                }
+              },
+              "Ordini": {
+                "$id": "98",
+                "$values": [
+                  {
+                    "$id": "99",
+                    "NumeroTavolo": 17,
+                    "Ristorante": {
+                      "$id": "100",
+                      "Nome": "MCadel",
+                      "Indirizzo": "Via Torelli 17",
+                      "Dipendenti": {
+                        "$id": "101",
+                        "$values": []
+                      },
+                      "Ordini": {
+                        "$id": "102",
+                        "$values": [
+                          {
+                            "$ref": "99"
+                          }
+                        ]
+                      },
+                      "Clienti": {
+                        "$id": "103",
+                        "$values": [
+                          {
+                            "$ref": "65"
+                          }
+                        ]
+                      }
+                    },
+                    "Cliente": {
+                      "$ref": "65"
+                    }
+                  },
+                  {
+                    "$id": "104",
+                    "NumeroTavolo": 17,
+                    "Ristorante": {
+                      "$id": "105",
+                      "Nome": "MCadel",
+                      "Indirizzo": "Via Torelli 17",
+                      "Dipendenti": {
+                        "$id": "106",
+                        "$values": []
+                      },
+                      "Ordini": {
+                        "$id": "107",
+                        "$values": [
+                          {
+                            "$id": "108",
+                            "NumeroTavolo": 17,
+                            "Ristorante": {
+                              "$ref": "105"
+                            },
+                            "Cliente": {
+                              "$id": "109",
+                              "Nome": "Salvatore",
+                              "Cognome": "Frattaruolo",
+                              "Ristorante": {
+                                "$ref": "105"
+                              },
+                              "Ordini": {
+                                "$id": "110",
+                                "$values": [
+                                  {
+                                    "$ref": "108"
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "$ref": "104"
+                          }
+                        ]
+                      },
+                      "Clienti": {
+                        "$id": "111",
+                        "$values": [
+                          {
+                            "$ref": "109"
+                          },
+                          {
+                            "$ref": "65"
+                          }
+                        ]
+                      }
+                    },
+                    "Cliente": {
+                      "$ref": "65"
+                    }
+                  },
+                  {
+                    "$id": "112",
+                    "NumeroTavolo": 45,
+                    "Ristorante": {
+                      "$id": "113",
+                      "Nome": "MCadel",
+                      "Indirizzo": "Via Torelli 17",
+                      "Dipendenti": {
+                        "$id": "114",
+                        "$values": []
+                      },
+                      "Ordini": {
+                        "$id": "115",
+                        "$values": [
+                          {
+                            "$id": "116",
+                            "NumeroTavolo": 17,
+                            "Ristorante": {
+                              "$ref": "113"
+                            },
+                            "Cliente": {
+                              "$id": "117",
+                              "Nome": "Salvatore",
+                              "Cognome": "Frattaruolo",
+                              "Ristorante": {
+                                "$ref": "113"
+                              },
+                              "Ordini": {
+                                "$id": "118",
+                                "$values": [
+                                  {
+                                    "$ref": "116"
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "$id": "119",
+                            "NumeroTavolo": 17,
+                            "Ristorante": {
+                              "$ref": "113"
+                            },
+                            "Cliente": {
+                              "$id": "120",
+                              "Nome": "Salvatore",
+                              "Cognome": "Frattaruolo",
+                              "Ristorante": {
+                                "$ref": "113"
+                              },
+                              "Ordini": {
+                                "$id": "121",
+                                "$values": [
+                                  {
+                                    "$id": "122",
+                                    "NumeroTavolo": 17,
+                                    "Ristorante": {
+                                      "$id": "123",
+                                      "Nome": "MCadel",
+                                      "Indirizzo": "Via Torelli 17",
+                                      "Dipendenti": {
+                                        "$id": "124",
+                                        "$values": []
+                                      },
+                                      "Ordini": {
+                                        "$id": "125",
+                                        "$values": [
+                                          {
+                                            "$ref": "122"
+                                          }
+                                        ]
+                                      },
+                                      "Clienti": {
+                                        "$id": "126",
+                                        "$values": [
+                                          {
+                                            "$ref": "120"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "Cliente": {
+                                      "$ref": "120"
+                                    }
+                                  },
+                                  {
+                                    "$ref": "119"
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "$ref": "112"
+                          }
+                        ]
+                      },
+                      "Clienti": {
+                        "$id": "127",
+                        "$values": [
+                          {
+                            "$ref": "117"
+                          },
+                          {
+                            "$ref": "120"
+                          },
+                          {
+                            "$ref": "65"
+                          }
+                        ]
+                      }
+                    },
+                    "Cliente": {
+                      "$ref": "65"
+                    }
+                  },
+                  {
+                    "$ref": "96"
+                  },
+                  {
+                    "$ref": "64"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "Clienti": {
+        "$id": "128",
+        "$values": [
+          {
+            "$ref": "6"
+          },
+          {
+            "$ref": "9"
+          },
+          {
+            "$ref": "17"
+          },
+          {
+            "$ref": "33"
+          },
+          {
+            "$ref": "65"
+          }
+        ]
+      }
     }
-]
+  ]
+}

@@ -30,14 +30,14 @@
         {
             bentra = new Button();
             btnLoginAdmin = new Button();
-            button2 = new Button();
             SuspendLayout();
             // 
             // bentra
             // 
-            bentra.Location = new Point(419, 508);
+            bentra.Location = new Point(479, 677);
+            bentra.Margin = new Padding(3, 4, 3, 4);
             bentra.Name = "bentra";
-            bentra.Size = new Size(75, 23);
+            bentra.Size = new Size(86, 31);
             bentra.TabIndex = 0;
             bentra.Text = "Entra";
             bentra.UseVisualStyleBackColor = true;
@@ -45,33 +45,25 @@
             // 
             // btnLoginAdmin
             // 
-            btnLoginAdmin.Location = new Point(774, 652);
+            btnLoginAdmin.Location = new Point(12, 4);
+            btnLoginAdmin.Margin = new Padding(3, 4, 3, 4);
             btnLoginAdmin.Name = "btnLoginAdmin";
-            btnLoginAdmin.Size = new Size(116, 35);
+            btnLoginAdmin.Size = new Size(133, 47);
             btnLoginAdmin.TabIndex = 1;
             btnLoginAdmin.Text = "Login Admin";
             btnLoginAdmin.UseVisualStyleBackColor = true;
             btnLoginAdmin.Click += btnLoginAdmin_Click;
             // 
-            // button2
-            // 
-            button2.Location = new Point(24, 652);
-            button2.Name = "button2";
-            button2.Size = new Size(116, 35);
-            button2.TabIndex = 2;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
             // FormMcCadel
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.entrata;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(916, 709);
-            Controls.Add(button2);
+            ClientSize = new Size(1047, 945);
             Controls.Add(btnLoginAdmin);
             Controls.Add(bentra);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormMcCadel";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "McCadel";
@@ -82,6 +74,5 @@
 
         private Button bentra;
         private Button btnLoginAdmin;
-        private Button button2;
     }
 }
